@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Punch, Simulator", HidePremium = false, IntroText = "Punch sim", SaveConfig = false, ConfigFolder = "PunchSim"})
+local Window = OrionLib:MakeWindow({Name = "Pet 99", HidePremium = false, IntroText = "Punch sim", SaveConfig = false, ConfigFolder = "PunchSim"})
 
 local MainTab = Window:MakeTab({
 	Name = "Main",
@@ -51,11 +51,11 @@ TpTab:AddButton({
 	Callback = function()
 		wait(0.1)
 		local args = {
-			[1] = "Teleport",
-			[2] = 1
+			[1] = "Sakura Egg",
+			[2] = 19
 		}
 		
-		game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("TeleportEvent"):InvokeServer(unpack(args))
+		game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Eggs_RequestPurchase"):InvokeServer(unpack(args))		
   	end,   
 })
 
@@ -74,5 +74,13 @@ TpTab:AddButton({
 	Callback = function()
 		wait(0.1)
 		loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-dark-dex-v4-3132"))()	
+  	end,   
+})
+
+TpTab:AddButton({
+	Name = "Lolking",
+	Callback = function()
+		wait(0.1)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Sim99/main/Pet"))()
   	end,   
 })
