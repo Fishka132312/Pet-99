@@ -142,7 +142,5 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("DailyRewards_Redeem"):InvokeServer(unpack(args))
-wait(0.5)
-		end
   	end,   
 })
