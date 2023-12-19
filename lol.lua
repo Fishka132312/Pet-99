@@ -784,7 +784,7 @@ ObbyTab:AddButton({
 	Name = "Enter",
 	Callback = function()
 		wait(0.1)
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(942.350769, 16.3126278, 2568.38672, 0.704517305, -9.4511341e-09, -0.709686816, -6.85737744e-10, 1, -1.39980738e-08, 0.709686816, 1.03485442e-08, 0.704517305)	
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(945.350769, 16.3126278, 2568.38672, 0.704517305, -9.4511341e-09, -0.709686816, -6.85737744e-10, 1, -1.39980738e-08, 0.709686816, 1.03485442e-08, 0.704517305)	
   	end,   
 })
 
