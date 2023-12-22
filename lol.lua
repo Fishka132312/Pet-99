@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Pet 99", HidePremium = false, IntroText = "Pet 99", SaveConfig = false, ConfigFolder = "PunchSim"})
+local Window = OrionLib:MakeWindow({Name = "Pet 99", HidePremium = false, IntroText = "Pet 99", SaveConfig = false, ConfigFolder = "Pet sim 99"})
 
 local MainTab = Window:MakeTab({
 	Name = "Main",
