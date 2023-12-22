@@ -1042,6 +1042,8 @@ local Section = DiamondTab:AddSection({
 	Name = "Super Puper Autofarm (NEED AUTO FARM GAYPASS AND TAP, OR HACKS😈)"
 })
 
+local isRunning = false
+
 DiamondTab:AddToggle({
     Name = "Omg how🦊,
     Default = false,
