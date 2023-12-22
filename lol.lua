@@ -1325,11 +1325,15 @@ MiscTab:AddButton({
 		wait(1)
 		game:GetService("Workspace")["__THINGS"]["__FAKE_INSTANCE_BREAK_ZONES"]:Destroy()
 		wait(0.1)
+		game:GetService("Workspace")["__THINGS"].Breakables:Destroy()
+		wait(0.5)
+		game:GetService("Workspace")["__THINGS"].Instances.StairwayToHeaven:Destroy()
+		wait(0.5)
 		local workspace = game:GetService("Workspace")
 local eggsFolder = workspace:WaitForChild("__THINGS").Eggs.Main
 
 local startEggNumber = 1
-local endEggNumber = 90
+local endEggNumber = 105
 
 for i = startEggNumber, endEggNumber do
     if i ~= 76 then
@@ -1341,6 +1345,6 @@ for i = startEggNumber, endEggNumber do
         end
     end
 end
-wait(1)		
+wait(1)
   	end,   
 })
