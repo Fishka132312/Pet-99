@@ -1290,6 +1290,14 @@ MiscTab:AddButton({
 })
 
 MiscTab:AddButton({
+	Name = "RIVERHUB",
+	Callback = function()
+		wait(0.2)
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/SKOIXLL/RIVERHUB-SKYHUB/main/WL.lua'))();
+  	end,   
+})
+
+MiscTab:AddButton({
 	Name = "dex mobile",
 	Callback = function()
 		wait(0.2)
