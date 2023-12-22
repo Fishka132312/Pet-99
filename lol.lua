@@ -1329,6 +1329,12 @@ MiscTab:AddButton({
 		wait(0.5)
 		game:GetService("Workspace")["__THINGS"].Instances.StairwayToHeaven:Destroy()
 		wait(0.5)
+		game:GetService("Workspace")["__THINGS"].Chests:Destroy()
+		wait(0.5)
+		game:GetService("Workspace").Wedge:Destroy()
+		wait(0.5)
+		game:GetService("Workspace").Wedge:Destroy()
+		wait(0.5)
 		local workspace = game:GetService("Workspace")
 local eggsFolder = workspace:WaitForChild("__THINGS").Eggs.Main
 
