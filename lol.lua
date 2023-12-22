@@ -1,1 +1,1275 @@
-local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or bit ;local v4=v3.bxor;local v5=table.concat;local v6=table.insert;local function v7(v19,v20)local v21={};for v108=1, #v19 do v6(v21,v0(v4(v1(v2(v19,v108,v108 + 1 )),v1(v2(v20,1 + (v108% #v20) ,1 + (v108% #v20) + 1 )))%256 ));end return v5(v21);end local v8=loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/Orion/main/source"))();local v9=v8:MakeWindow({[v7("\255\194\214\32","\126\177\163\187\69\134\219\167")]=v7("\19\200\62\133\165\122","\156\67\173\74\165"),[v7("\28\190\77\19\140\52\67\57\190\92\27","\38\84\215\41\118\220\70")]=false,[v7("\121\24\54\0\241\100\19\58\6","\158\48\118\66\114")]=v7("\155\33\4\118\42\252","\155\203\68\112\86\19\197"),[v7("\117\220\32\249\99\119\235\254\79\218","\152\38\189\86\156\32\24\133")]=false,[v7("\223\88\169\64\245\80\129\73\240\83\162\84","\38\156\55\199")]=v7("\152\104\114\43\27\71\243\78","\35\200\29\28\72\115\20\154")});local v10=v9:MakeTab({[v7("\55\190\220\218","\84\121\223\177\191\237\76")]=v7("\150\87\192\174","\161\219\54\169\192\90\48\80"),[v7("\96\65\15\43","\69\41\34\96")]="rbxassetid://13510772267",[v7("\140\209\210\7\11\62\177\236\217\6\27","\75\220\163\183\106\98")]=false});local v11=v10:AddSection({[v7("\44\187\134\50","\185\98\218\235\87")]=v7("\230\61\46\232","\202\171\92\71\134\190")});local v12=false;v10:AddToggle({[v7("\7\192\33\141","\232\73\161\76")]=v7("\175\220\81\73","\126\219\185\34\61"),[v7("\40\203\88\115\107\123\231","\135\108\174\62\18\30\23\147")]=false,[v7("\149\232\38\199\26\175\48\204","\167\214\137\74\171\120\206\83")]=function(v22)if v22 then local v109=858 -(57 + 801) ;while true do if ((0 + 0)==v109) then v12=true;while v12 do local v188={[v7("\135\255\49\92\236\174\132\254\99","\199\235\144\82\61\152")]=Vector3.new(),[v7("\11\25\186\42\19\31\182\37\85","\75\103\118\217")]=Vector3.new(529.122131 -344 ,4.417156200000001 + 20 , -(1886.119263 -1321),4 -3 ,591 -(562 + 29) ,0 + 0 ,1419 -(374 + 1045) ,1,0 + 0 ,0,0 -0 ,639 -(448 + 190) )};local v189=game:GetService(v7("\243\67\117\17\183\45\194\70\102\29\186\27","\126\167\52\16\116\217"));local v190=TweenInfo.new(1,Enum.EasingStyle.Linear);local v191=game.Players.LocalPlayer;function bypass_teleport(v231)if (v191.Character and v191.Character:FindFirstChild(v7("\224\59\45\129\186\22\245\204\28\47\143\160\41\253\218\58","\156\168\78\64\224\212\121"))) then local v250=CFrame.new(v231);local v251=v189:Create(v191.Character.HumanoidRootPart,v190,{[v7("\36\200\183\207\10\235","\174\103\142\197")]=v250});v251:Play();end end bypass_teleport(v188.location1);bypass_teleport(v188.location2);wait(3);local v188={[v7("\90\39\92\57\49\87\247\88\121","\152\54\72\63\88\69\62")]=Vector3.new(),[v7("\216\203\237\93\192\205\225\82\134","\60\180\164\142")]=Vector3.new(60.122130999999996 + 125 ,24.4171562, -(274.11926300000005 + 331),1 + 0 ,0 -0 ,0 -0 ,1494 -(1307 + 187) ,3 -2 ,0 -0 ,0 -0 ,0,1)};local v189=game:GetService(v7("\108\73\0\44\41\222\23\74\72\12\42\34","\114\56\62\101\73\71\141"));local v190=TweenInfo.new(684 -(232 + 451) ,Enum.EasingStyle.Linear);local v191=game.Players.LocalPlayer;function bypass_teleport(v232)if (v191.Character and v191.Character:FindFirstChild(v7("\144\252\214\197\182\230\210\192\138\230\212\208\136\232\201\208","\164\216\137\187"))) then local v252=CFrame.new(v232);local v253=v189:Create(v191.Character.HumanoidRootPart,v190,{[v7("\241\192\35\179\171\251","\107\178\134\81\210\198\158")]=v252});v253:Play();end end bypass_teleport(v188.location1);bypass_teleport(v188.location2);wait(3);local v188={[v7("\52\1\129\199\190\49\1\140\151","\202\88\110\226\166")]=Vector3.new(),[v7("\207\0\129\246\222\202\0\140\165","\170\163\111\226\151")]=Vector3.new(245.122131,24.4171562, -605.119263,1 + 0 ,0 + 0 ,564 -(510 + 54) ,0 -0 ,1,36 -(13 + 23) ,0 -0 ,0,1 -0 )};local v189=game:GetService(v7("\37\39\183\61\64\4\44\3\38\187\59\75","\73\113\80\210\88\46\87"));local v190=TweenInfo.new(1 -0 ,Enum.EasingStyle.Linear);local v191=game.Players.LocalPlayer;function bypass_teleport(v233)if (v191.Character and v191.Character:FindFirstChild(v7("\169\57\192\19\233\142\37\201\32\232\142\56\253\19\245\149","\135\225\76\173\114"))) then local v254=1088 -(830 + 258) ;local v255;local v256;local v257;local v258;while true do if (v254==(6 -4)) then while true do if (v255==1) then v258=nil;while true do if ((0 + 0)==v256) then v257=CFrame.new(v233);v258=v189:Create(v191.Character.HumanoidRootPart,v190,{[v7("\57\203\170\177\161\184","\199\122\141\216\208\204\221")]=v257});v256=1 + 0 ;end if ((1442 -(860 + 581))==v256) then v258:Play();break;end end break;end if (v255==(0 -0)) then v256=0 + 0 ;v257=nil;v255=242 -(237 + 4) ;end end break;end if (v254==(2 -1)) then v257=nil;v258=nil;v254=4 -2 ;end if (v254==(0 -0)) then v255=0 + 0 ;v256=nil;v254=1 + 0 ;end end end end bypass_teleport(v188.location1);bypass_teleport(v188.location2);wait(11 -8 );local v188={[v7("\161\210\19\241\108\255\162\211\65","\150\205\189\112\144\24")]=Vector3.new(),[v7("\41\139\188\77\16\129\30\30\119","\112\69\228\223\44\100\232\113")]=Vector3.new(106.122131 + 139 ,24.4171562, -565.119263,1 + 0 ,1426 -(85 + 1341) ,0 -0 ,0 -0 ,373 -(45 + 327) ,0 -0 ,0,502 -(444 + 58) ,1)};local v189=game:GetService(v7("\224\8\2\214\184\79\131\198\9\14\208\179","\230\180\127\103\179\214\28"));local v190=TweenInfo.new(1 + 0 ,Enum.EasingStyle.Linear);local v191=game.Players.LocalPlayer;function bypass_teleport(v234)if (v191.Character and v191.Character:FindFirstChild(v7("\164\16\82\71\234\78\233\136\55\80\73\240\113\225\158\17","\128\236\101\63\38\132\33"))) then local v259=0 + 0 ;local v260;local v261;while true do if (v259==(0 + 0)) then v260=CFrame.new(v234);v261=v189:Create(v191.Character.HumanoidRootPart,v190,{[v7("\143\143\3\69\187\238","\175\204\201\113\36\214\139")]=v260});v259=2 -1 ;end if (v259==(1733 -(64 + 1668))) then v261:Play();break;end end end end bypass_teleport(v188.location1);bypass_teleport(v188.location2);wait(1976 -(1227 + 746) );end break;end end else v12=false;end end});local v12=false;v10:AddToggle({[v7("\105\205\56\217","\100\39\172\85\188")]=v7("\140\109\173\143\115\139\106\188\133\115\138\113\191\148\32\237\74\188\151\50\191\124\170","\83\205\24\217\224"),[v7("\194\192\203\60\243\201\217","\93\134\165\173")]=false,[v7("\157\243\205\206\56\207\177\117","\30\222\146\161\162\90\174\210")]=function(v23)if v23 then local v110=0 -0 ;local v111;while true do if (v110==0) then v111=0 -0 ;while true do if (v111==0) then v12=true;while v12 do local v262={[495 -(415 + 79) ]=1 + 0 };game:GetService(v7("\215\75\96\6\236\77\113\30\224\74\67\30\234\92\113\13\224","\106\133\46\16")):WaitForChild(v7("\118\37\103\235\85\82\83","\32\56\64\19\156\58")):WaitForChild(v7("\104\205\225\83\95\255\192\124\218\224\83\26\213\137\92\220","\224\58\168\133\54\58\146")):InvokeServer(unpack(v262));wait(491.1 -(142 + 349) );local v262={[1 + 0 ]=2 -0 };game:GetService(v7("\107\83\91\241\124\133\134\31\92\82\120\233\122\148\134\12\92","\107\57\54\43\157\21\230\231")):WaitForChild(v7("\245\142\5\226\182\206\196","\175\187\235\113\149\217\188")):WaitForChild(v7("\14\170\133\73\230\116\56\26\189\132\73\163\94\113\58\187","\24\92\207\225\44\131\25")):InvokeServer(unpack(v262));wait(0.1 + 0 );local v262={[1 + 0 ]=7 -4 };game:GetService(v7("\121\214\168\64\18\126\74\199\189\72\40\105\68\193\185\75\30","\29\43\179\216\44\123")):WaitForChild(v7("\147\220\52\91\178\203\43","\44\221\185\64")):WaitForChild(v7("\51\226\76\90\118\12\167\110\77\118\4\167\111\86\117\21","\19\97\135\40\63")):InvokeServer(unpack(v262));wait(1864.1 -(1710 + 154) );local v262={[319 -(200 + 118) ]=4};game:GetService(v7("\156\89\35\55\38\50\175\72\54\63\28\37\161\78\50\60\42","\81\206\60\83\91\79")):WaitForChild(v7("\96\174\196\101\32\209\70","\196\46\203\176\18\79\163\45")):WaitForChild(v7("\138\39\122\27\33\246\175\158\48\123\27\100\220\230\190\54","\143\216\66\30\126\68\155")):InvokeServer(unpack(v262));wait(0.1 + 0 );local v262={[1 -0 ]=5};game:GetService(v7("\152\205\29\199\204\160\214\245\175\204\62\223\202\177\214\230\175","\129\202\168\109\171\165\195\183")):WaitForChild(v7("\12\93\35\207\209\6\237","\134\66\56\87\184\190\116")):WaitForChild(v7("\14\52\13\190\28\230\97\19\46\52\12\251\62\226\39\33","\85\92\81\105\219\121\139\65")):InvokeServer(unpack(v262));wait(0.1 -0 );local v262={[1]=6 + 0 };game:GetService(v7("\207\182\64\73\117\220\252\167\85\65\79\203\242\161\81\66\121","\191\157\211\48\37\28")):WaitForChild(v7("\241\26\224\11\53\205\20","\90\191\127\148\124")):WaitForChild(v7("\74\130\42\18\125\138\110\49\106\130\43\87\95\142\40\3","\119\24\231\78")):InvokeServer(unpack(v262));wait(0.1 + 0 );local v262={[1]=4 + 3 };game:GetService(v7("\176\40\181\70\213\67\16\150\40\161\121\200\79\3\131\42\160","\113\226\77\197\42\188\32")):WaitForChild(v7("\20\19\224\162\53\4\255","\213\90\118\148")):WaitForChild(v7("\105\43\176\83\72\86\110\146\68\72\94\110\147\95\75\79","\45\59\78\212\54")):InvokeServer(unpack(v262));wait(0.1 + 0 );local v262={[2 -1 ]=1258 -(363 + 887) };game:GetService(v7("\34\83\147\135\143\45\172\228\21\82\176\159\137\60\172\247\21","\144\112\54\227\235\230\78\205")):WaitForChild(v7("\157\45\27\235\223\73\184","\59\211\72\111\156\176")):WaitForChild(v7("\124\130\231\40\75\138\163\11\92\130\230\109\105\142\229\57","\77\46\231\131")):InvokeServer(unpack(v262));wait(0.1 -0 );local v262={[4 -3 ]=2 + 7 };game:GetService(v7("\136\81\166\76\179\87\183\84\191\80\133\84\181\70\183\71\191","\32\218\52\214")):WaitForChild(v7("\96\18\37\191\254\162\78","\58\46\119\81\200\145\208\37")):WaitForChild(v7("\25\137\52\169\172\176\118\13\158\53\169\233\154\63\45\152","\86\75\236\80\204\201\221")):InvokeServer(unpack(v262));wait(0.1 -0 );local v262={[1 + 0 ]=1674 -(674 + 990) };game:GetService(v7("\64\68\103\137\247\136\115\85\114\129\205\159\125\83\118\130\251","\235\18\33\23\229\158")):WaitForChild(v7("\126\191\213\172\95\168\202","\219\48\218\161")):WaitForChild(v7("\214\116\120\76\222\66\160\194\99\121\76\155\104\233\226\101","\128\132\17\28\41\187\47")):InvokeServer(unpack(v262));wait(0.1 + 0 );local v262={[1 + 0 ]=11};game:GetService(v7("\51\55\22\54\84\2\51\18\63\89\50\38\9\40\92\6\55","\61\97\82\102\90")):WaitForChild(v7("\130\43\191\92\200\69\21","\105\204\78\203\43\167\55\126")):WaitForChild(v7("\151\175\39\27\22\9\135\119\183\175\38\94\52\13\193\69","\49\197\202\67\126\115\100\167")):InvokeServer(unpack(v262));wait(0.1);local v262={[1 -0 ]=1067 -(507 + 548) };game:GetService(v7("\5\94\207\37\137\85\95\35\94\219\26\148\89\76\54\92\218","\62\87\59\191\73\224\54")):WaitForChild(v7("\201\7\238\222\232\16\241","\169\135\98\154")):WaitForChild(v7("\249\114\32\81\248\62\136\237\101\33\81\189\20\193\205\99","\168\171\23\68\52\157\83")):InvokeServer(unpack(v262));wait(842 -(289 + 548) );end break;end end break;end end else v12=false;end end});v10:AddToggle({[v7("\218\112\248\168","\231\148\17\149\205\69\77")]=v7("\161\178\211\244\23\204\141\166\203\247\115\254\137\171\222\223\94\254\141\168\201\255\68","\159\224\199\167\155\55"),[v7("\211\246\58\211\226\255\40","\178\151\147\92")]=false,[v7("\175\252\64\62\16\77\121\135","\26\236\157\44\82\114\44")]=function(v24)if v24 then local v112=1818 -(821 + 997) ;local v113;while true do if (v112==(255 -(195 + 60))) then v113=0;while true do if (v113==(0 + 0)) then v12=true;while v12 do local v263=1501 -(251 + 1250) ;local v264;while true do if (v263==0) then v264={[1]=v7("\25\35\212\87\38\10\212\82\38\55\241\82\43\35\218\85\46\61","\59\74\78\181")};game:GetService(v7("\23\212\74\86\186\38\208\78\95\183\22\197\85\72\178\34\212","\211\69\177\58\58")):WaitForChild(v7("\153\224\109\226\230\217\188","\171\215\133\25\149\137")):WaitForChild(v7("\197\201\59\246\246\2\249\85\224\218\54\233\208\2\249\70\228\205\63","\34\129\168\82\154\143\80\156")):InvokeServer(unpack(v264));v263=1;end if (v263==(2 -1)) then wait(5);break;end end end break;end end break;end end else v12=false;end end});v10:AddToggle({[v7("\171\179\62\14","\233\229\210\83\107\40\46")]=v7("\224\87\38\217\69\229\67\59\218\28\241\77\38\223\10\207\81","\101\161\34\82\182"),[v7("\204\8\95\255\206\238\150","\78\136\109\57\158\187\130\226")]=false,[v7("\29\62\245\253\60\62\250\250","\145\94\95\153")]=function(v25)if v25 then local v114=0 + 0 ;while true do if ((1032 -(809 + 223))==v114) then v12=true;while v12 do local v192=0 -0 ;local v193;local v194;while true do if (v192==(2 -1)) then while true do if ((0 -0)==v193) then v194={[1]=v7("\217\204\29\217\87\135\242\217\29\218\64\164","\215\157\173\116\181\46")};game:GetService(v7("\7\177\155\254\211\54\181\159\247\222\6\160\132\224\219\50\177","\186\85\212\235\146")):WaitForChild(v7("\236\132\2\233\54\252\83","\56\162\225\118\158\89\142")):WaitForChild(v7("\120\4\201\163\59\234\89\18\193\189\38\203\99\55\197\171\39\221\81","\184\60\101\160\207\66")):InvokeServer(unpack(v194));v193=1;end if (v193==1) then wait(4 + 1 );break;end end break;end if (v192==0) then v193=0 + 0 ;v194=nil;v192=618 -(14 + 603) ;end end end break;end end else v12=false;end end});v10:AddToggle({[v7("\31\131\113\185","\220\81\226\28")]=v7("\50\192\150\244\170\227\18\220\142\226\207\201\16\221\131\245\254\212","\167\115\181\226\155\138"),[v7("\198\39\225\93\110\125\210","\166\130\66\135\60\27\17")]=false,[v7("\103\75\194\121\50\69\73\197","\80\36\42\174\21")]=function(v26)if v26 then v12=true;while v12 do local v122=0;local v123;while true do if (v122==0) then v123={[130 -(118 + 11) ]=v7("\106\17\62\118\87\53\57\121\70\17\57\110\93","\26\46\112\87")};game:GetService(v7("\139\38\187\120\182\188\68\160\188\39\152\96\176\173\68\179\188","\212\217\67\203\20\223\223\37")):WaitForChild(v7("\148\136\188\197\181\159\163","\178\218\237\200")):WaitForChild(v7("\146\180\239\220\175\135\227\199\183\167\226\195\137\135\227\212\179\176\235","\176\214\213\134")):InvokeServer(unpack(v123));v122=1;end if (v122==(1 + 0)) then wait(5 + 0 );break;end end end else v12=false;end end});v10:AddToggle({[v7("\218\172\187\209","\57\148\205\214\180\200\54")]=v7("\51\232\33\59\54\54\252\60\56\111\59\233\48\57\101","\22\114\157\85\84"),[v7("\224\206\21\197\72\250\188","\200\164\171\115\164\61\150")]=false,[v7("\157\245\15\73\129\191\247\8","\227\222\148\99\37")]=function(v27)if v27 then local v115=0;while true do if (v115==(0 -0)) then v12=true;while v12 do local v195=949 -(551 + 398) ;local v196;while true do if (v195==(1 + 0)) then wait(2 + 3 );break;end if (v195==0) then v196={[1]=v7("\23\83\91\250\224\26\70\87\251\234","\153\83\50\50\150")};game:GetService(v7("\111\115\99\16\122\168\76\73\115\119\47\103\164\95\92\113\118","\45\61\22\19\124\19\203")):WaitForChild(v7("\239\23\25\226\13\98\178","\217\161\114\109\149\98\16")):WaitForChild(v7("\54\33\49\112\165\70\23\55\57\110\184\103\45\18\61\120\185\113\31","\20\114\64\88\28\220")):InvokeServer(unpack(v196));v195=1;end end end break;end end else v12=false;end end});v10:AddToggle({[v7("\31\0\223\177","\221\81\97\178\212\152\176")]=v7("\236\242\9\244\90\224\226\25\242\15\192\195\28\242\22\212\195\20\250\23\194\233\25\232","\122\173\135\125\155"),[v7("\160\196\6\184\42\61\220","\168\228\161\96\217\95\81")]=false,[v7("\248\208\34\80\45\86\216\218","\55\187\177\78\60\79")]=function(v28)if v28 then local v116=0 + 0 ;while true do if (v116==0) then v12=true;while v12 do local v197=0 -0 ;local v198;local v199;while true do if (v197==(0 -0)) then v198=0 + 0 ;v199=nil;v197=1;end if (v197==1) then while true do if (v198==(0 -0)) then v199={[1 + 0 ]=v7("\0\203\91\226\83\194\164\44\199\83\242\98\198\129\32\193\81\239\85","\224\77\174\63\139\38\175")};game:GetService(v7("\182\68\72\34\141\66\89\58\129\69\107\58\139\83\89\41\129","\78\228\33\56")):WaitForChild(v7("\224\123\166\20\138\220\117","\229\174\30\210\99")):WaitForChild(v7("\63\236\143\93\244\15\60\12\236\148\85\254\2\11\30\233\131\84\224","\89\123\141\230\49\141\93")):InvokeServer(unpack(v199));v198=1;end if (v198==(90 -(40 + 49))) then wait(5);break;end end break;end end end break;end end else v12=false;end end});local v13=v9:MakeTab({[v7("\221\112\251\9","\42\147\17\150\108\112")]=v7("\32\164\47\102","\136\111\198\77\31\135"),[v7("\43\10\168\88","\201\98\105\199\54\221\132\119")]="rbxassetid://4483345998",[v7("\137\30\134\44\11\32\161\150\2\143\56","\204\217\108\227\65\98\85")]=false});local v11=v13:AddSection({[v7("\112\194\248\224","\160\62\163\149\133\76")]=v7("\245\172\12\60\208\223\163\77\0\193\212\185","\163\182\192\109\79")});v13:AddButton({[v7("\26\39\13\197","\149\84\70\96\160")]=v7("\29\8\25\232\42","\141\88\102\109"),[v7("\144\82\198\124\24\60\86\202","\161\211\51\170\16\122\93\53")]=function()wait(0.1 -0 );game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(1404.923523 -(99 + 391) ,20.4310474 + 3 , -(927.970032 -716),0,0 -0 , -(1 + 0),2 -1 ,1604 -(1032 + 572) ,0,417 -(203 + 214) , -1,0);end});v13:AddButton({[v7("\213\175\191\45","\72\155\206\210")]=v7("\96\115\90\7\32\78","\83\38\26\52\110"),[v7("\123\22\43\74\90\22\36\77","\38\56\119\71")]=function()local v30=1817 -(568 + 1249) ;local v31;while true do if (v30==(0 + 0)) then v31=0;while true do if ((0 -0)==v31) then wait(0.1 -0 );game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(1490.661621 -(913 + 393) ,145.304489, -(4905.94238 -3168),0,0 -0 ,1,0,411 -(269 + 141) ,v7("\190\191","\54\147\143\56\182\69"), -1,0 -0 ,0);break;end end break;end end end});local v11=v13:AddSection({[v7("\248\128\242\76","\191\182\225\159\41")]=v7("\6\27\38\80\203\161\203\46\30\44","\162\75\114\72\53\235\231")});v13:AddButton({[v7("\162\61\73\231","\98\236\92\36\130\51")]=v7("\129\23\24\191\87","\80\196\121\108\218\37\200\213"),[v7("\35\114\14\115\73\15\137\11","\234\96\19\98\31\43\110")]=function()local v32=0;while true do if (v32==(1981 -(362 + 1619))) then wait(1625.1 -(950 + 675) );game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(210.956146,9.433185600000002 + 12 ,329.82724,0.0223363042,1179 -(216 + 963) ,1287.999750495 -(485 + 802) ,0,1,559 -(432 + 127) , -(1073.999750495 -(1065 + 8)),0,0.0223363042);break;end end end});v13:AddToggle({[v7("\40\30\95\194","\235\102\127\50\167\204\18")]=v7("\99\177\240\38\64\110\1\241\165","\78\48\193\149\67\36"),[v7("\20\27\134\25\84\60\10","\33\80\126\224\120")]=false,[v7("\207\169\15\200\94\237\171\8","\60\140\200\99\164")]=function(v33)if v33 then local v117=0 + 0 ;while true do if (v117==(1601 -(635 + 966))) then v12=true;while v12 do local v201=0 + 0 ;local v202;while true do if (v201==(42 -(5 + 37))) then v202=0;while true do if (v202==(0 -0)) then game.Players.LocalPlayer.Character.Humanoid.WalkSpeed=100;wait(0.1 + 0 );break;end end break;end end end break;end end else v12=false;end end});local v11=v13:AddSection({[v7("\169\245\9\35","\194\231\148\100\70")]=v7("\108\89\207\164\250\205\6\99\195\161\239","\168\38\44\161\195\150")});v13:AddButton({[v7("\174\253\143\115","\118\224\156\226\22\80\136\214")]=v7("\103\224\77\133\80","\224\34\142\57"),[v7("\253\166\201\209\113\240\94\5","\110\190\199\165\189\19\145\61")]=function()local v34=0 -0 ;while true do if (0==v34) then wait(0.1 + 0 );game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(528.97821,24.4103432,423.426575,0 -0 ,1,v7("\151\187","\167\186\139\23\136\235"), -(3 -2),0 -0 ,0 -0 ,0 + 0 ,0,1);break;end end end});v13:AddButton({[v7("\52\180\133\8","\109\122\213\232")]=v7("\200\254\172\57\253\255","\80\142\151\194"),[v7("\32\199\123\64\1\199\116\71","\44\99\166\23")]=function()local v35=529 -(318 + 211) ;local v36;local v37;while true do if (v35==(0 -0)) then v36=0;v37=nil;v35=1588 -(963 + 624) ;end if (v35==(1 + 0)) then while true do if (v36==0) then v37=0;while true do if (v37==(846 -(518 + 328))) then wait(0.1 -0 );game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(3304.70874,298.770706 -111 , -(815.320892 -(301 + 16)), -(0.573439598 -0),0 -0 , -0.819247961,0 -0 ,1 + 0 ,0,0.819247961 + 0 ,0 -0 , -(0.573439598 + 0));break;end end break;end end break;end end end});local v11=v13:AddSection({[v7("\82\246\36\51","\196\28\151\73\86\83")]=v7("\210\23\37\17\140\76\17\101\179\44\43\18\155","\22\147\99\73\112\226\56\120")});v13:AddButton({[v7("\150\116\239\240","\237\216\21\130\149")]=v7("\167\64\75\90\162","\62\226\46\63\63\208\169"),[v7("\198\24\89\143\29\12\44\85","\62\133\121\53\227\127\109\79")]=function()wait(0.1 + 0 );game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(1697.385742 -1163 , -(8.6355209 + 14),1721.356934 -(829 + 190) ,0 -0 ,0 -0 , -1,0 -0 ,1,0,2 -1 ,0,0 + 0 );end});v13:AddButton({[v7("\62\21\63\240","\194\112\116\82\149\182\206")]=v7("\31\161\66\17\211\234","\110\89\200\44\120\160\130"),[v7("\136\194\71\74\65\75\56\70","\45\203\163\43\38\35\42\91")]=function()local v39=0 + 0 ;while true do if ((0 -0)==v39) then wait(1 + 0 );game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings["1"].Collision.CFrame;wait(613.35 -(520 + 93) );game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings["2"].Collision.CFrame;wait(276.35 -(259 + 17) );game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings["3"].Collision.CFrame;wait(0.35);v39=1 + 0 ;end if (v39==(3 + 5)) then wait(0.35);game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings[v7("\138\31","\203\184\38\96\19\203")].Collision.CFrame;wait(0.35 -0 );game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings[v7("\106\35","\174\89\19\25\33")].Collision.CFrame;wait(591.35 -(396 + 195) );game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings[v7("\124\67","\107\79\114\50\46\151\231")].Collision.CFrame;break;end if (5==v39) then game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings[v7("\186\155","\33\139\163\128\185")].Collision.CFrame;wait(0.35 -0 );game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings[v7("\6\1","\190\55\56\100")].Collision.CFrame;wait(1761.35 -(440 + 1321) );game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings[v7("\4\255","\147\54\207\92\126\115\131")].Collision.CFrame;wait(0.35);game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings[v7("\95\96","\30\109\81\85\29\109")].Collision.CFrame;v39=6;end if (v39==6) then wait(0.35);game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings[v7("\173\35","\156\159\17\52\214\86\190")].Collision.CFrame;wait(1829.35 -(1059 + 770) );game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings[v7("\252\188","\220\206\143\221")].Collision.CFrame;wait(0.35);game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings[v7("\212\41","\178\230\29\77\119\184\172")].Collision.CFrame;wait(0.35 -0 );v39=552 -(424 + 121) ;end if (v39==(1 + 2)) then game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings[v7("\112\16","\67\65\33\48\100\151\60")].Collision.CFrame;wait(1347.35 -(641 + 706) );game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings[v7("\142\181","\147\191\135\206\184")].Collision.CFrame;wait(0.35 + 0 );game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings[v7("\213\123","\210\228\72\198\161\184\51")].Collision.CFrame;wait(440.35 -(249 + 191) );game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings[v7("\103\29","\174\86\41\147\112\19")].Collision.CFrame;v39=4;end if (v39==(30 -23)) then game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings[v7("\167\235","\152\149\222\106\123\23")].Collision.CFrame;wait(0.35 + 0 );game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings[v7("\143\112","\213\189\70\150\35")].Collision.CFrame;wait(0.35 -0 );game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings[v7("\29\2","\104\47\53\20")].Collision.CFrame;wait(427.35 -(183 + 244) );game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings[v7("\241\20","\111\195\44\225\124\220")].Collision.CFrame;v39=1 + 7 ;end if (v39==(732 -(434 + 296))) then wait(0.35);game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings["8"].Collision.CFrame;wait(0.35 -0 );game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings["9"].Collision.CFrame;wait(0.35);game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings[v7("\131\213","\52\178\229\188\67\231\201")].Collision.CFrame;wait(512.35 -(169 + 343) );v39=3 + 0 ;end if ((6 -2)==v39) then wait(0.35 -0 );game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings[v7("\10\85","\203\59\96\237\107\69\111\113")].Collision.CFrame;wait(0.35);game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings[v7("\117\64","\183\68\118\204\129\81\144")].Collision.CFrame;wait(0.35 + 0 );game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings[v7("\95\250","\226\110\205\16\132\107")].Collision.CFrame;wait(0.35);v39=13 -8 ;end if (v39==(1124 -(651 + 472))) then local v161=0 + 0 ;while true do if (v161==(2 + 1)) then game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings["7"].Collision.CFrame;v39=2 -0 ;break;end if (1==v161) then game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings["5"].Collision.CFrame;wait(483.35 -(397 + 86) );v161=2;end if ((876 -(423 + 453))==v161) then game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings["4"].Collision.CFrame;wait(0.35 + 0 );v161=1;end if (v161==2) then game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings["6"].Collision.CFrame;wait(0.35 + 0 );v161=3;end end end end end});local v11=v13:AddSection({[v7("\23\167\184\44","\160\89\198\213\73\234\89\215")]=v7("\110\120\167\246\204\70\118","\165\40\17\212\158")});v13:AddButton({[v7("\203\216\5\54","\70\133\185\104\83")]=v7("\33\75\80\47\219","\169\100\37\36\74"),[v7("\35\134\174\92\2\134\161\91","\48\96\231\194")]=function()local v40=0;local v41;while true do if (v40==(0 + 0)) then v41=0;while true do if (v41==0) then wait(0.1 + 0 );game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(711.196045 + 84 ,1217.1575642 -(50 + 1140) ,982.4431199999999 + 154 , -(0.0500205755 + 0),0 + 0 ,0.998748183,0 -0 ,1,0 + 0 , -(596.998748183 -(157 + 439)),0 -0 , -0.0500205755);break;end end break;end end end});v13:AddButton({[v7("\230\91\3\40","\227\168\58\110\77\121\184\207")]=v7("\90\41\171\79\241\221\120\182\115","\197\27\92\223\32\209\187\17"),[v7("\32\94\207\247\1\94\192\240","\155\99\63\163")]=function()local v42=0;while true do if (0==v42) then wait(0.1);loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/99/main/Sim"))();break;end end end});local v11=v13:AddSection({[v7("\172\208\172\136","\228\226\177\193\237\217")]=v7("\16\185\36\245\61\164\38","\134\84\208\67")});v13:AddButton({[v7("\61\173\139\89","\60\115\204\230")]=v7("\194\52\255\117\245","\16\135\90\139"),[v7("\119\117\10\63\76\85\123\95","\24\52\20\102\83\46\52")]=function()wait(0.1);game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(966.380737 -675 ,24.371582,3105.21497 -2055 ,919 -(782 + 136) ,855 -(112 + 743) ,0,1171 -(1026 + 145) ,1 + 0 ,718 -(493 + 225) ,0 -0 ,0 + 0 ,1);end});local v11=v13:AddSection({[v7("\234\46\44\33","\111\164\79\65\68")]=v7("\246\192\145\223\35\227\194\153\172\220\44\243","\138\166\185\227\190\78")});v13:AddButton({[v7("\229\117\200\50","\121\171\20\165\87\50\67")]=v7("\227\54\173\51\171","\98\166\88\217\86\217"),[v7("\213\247\117\13\132\221\245\253","\188\150\150\25\97\230")]=function()local v44=0 -0 ;while true do if (v44==(0 + 0)) then wait(0.1);game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(297.138916,24.0009537,1195.62061,2 -1 ,0 + 0 ,0,0 -0 ,1596 -(210 + 1385) ,1689 -(1201 + 488) ,0,0 + 0 ,1);break;end end end});v13:AddButton({[v7("\244\136\82\7","\141\186\233\63\98\108")]=v7("\215\227\34\191\54\249","\69\145\138\76\214"),[v7("\83\206\133\133\189\23\115\196","\118\16\175\233\233\223")]=function()local v45=0 -0 ;while true do if (0==v45) then wait(0.1 -0 );game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new( -2501.14453,74.5063248, -(3441.79126 -(352 + 233)), -(0.72219646 -0),0 + 0 ,0.691688001,0 -0 ,1,574 -(489 + 85) , -0.691688001,0, -(1501.72219646 -(277 + 1224)));break;end end end});local v11=v13:AddSection({[v7("\165\133\56\190","\29\235\228\85\219\142\235")]=v7("\20\215\191\157\88\76\37\75","\50\93\180\218\189\23\46\71")});v13:AddButton({[v7("\240\165\86\73","\40\190\196\59\44\36\188")]=v7("\25\75\200\177\232","\109\92\37\188\212\154\29"),[v7("\39\238\168\207\51\91\7\228","\58\100\143\196\163\81")]=function()local v46=0;while true do if (v46==(1493 -(663 + 830))) then wait(0.1 + 0 );game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(2370.163208 -1402 ,899.2914619000001 -(461 + 414) ,261.97998000000007 + 1295 ,0 + 0 ,0 + 0 ,1 + 0 ,0,1,v7("\87\18","\110\122\34\67\195\95\41\133"), -(251 -(172 + 78)),0 -0 ,0 + 0 );break;end end end});v13:AddButton({[v7("\91\176\86\79","\182\21\209\59\42")]=v7("\145\94\203\20\50\182","\222\215\55\165\125\65"),[v7("\15\208\202\22\240\192\238\65","\42\76\177\166\122\146\161\141")]=function()local v47=0 -0 ;while true do if (v47==(0 + 0)) then wait(0.1);game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(1506.8662100000001 + 3001 ,18.077078800000002 -7 , -505.510773, -(0.182919979 -0),0 + 0 , -(0.983127832 + 0),0 + 0 ,3 -2 ,0 -0 ,0.983127832 + 0 ,0 + 0 , -0.182919979);break;end end end});local v11=v13:AddSection({[v7("\139\139\8\203","\22\197\234\101\174\25")]=v7("\30\56\160\216\54\157\214\133\40","\230\77\84\197\188\22\207\183")});v13:AddButton({[v7("\215\21\203\249","\85\153\116\166\156\236\193\144")]=v7("\129\238\89\182\246","\96\196\128\45\211\132"),[v7("\22\140\119\83\208\174\183\211","\184\85\237\27\63\178\207\212")]=function()local v48=447 -(133 + 314) ;local v49;while true do if (v48==0) then v49=0 + 0 ;while true do if (v49==(213 -(199 + 14))) then wait(0.1 -0 );game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(374.711273,72.6971817,1481.58496,1549.982228756 -(647 + 902) ,0 -0 ,233.187687814 -(85 + 148) ,0,1,1289 -(426 + 863) , -(0.187687814 -0),1654 -(873 + 781) ,0.982228756 -0 );break;end end break;end end end});local v11=v13:AddSection({[v7("\38\88\4\90","\63\104\57\105")]=v7("\40\143\161\87\31\199\150\81\24\143","\36\107\231\196")});v13:AddButton({[v7("\115\180\175\130","\231\61\213\194")]=v7("\44\163\41\118\27","\19\105\205\93"),[v7("\138\9\210\141\61\168\11\213","\95\201\104\190\225")]=function()wait(0.1);game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(3394.33521 -2137 ,10.334974299999999 + 14 ,1799.71338,0 -0 ,0 -0 ,1,0 -0 ,1,v7("\226\155","\174\207\171\161"), -(1948 -(414 + 1533)),0,0 + 0 );end});v13:AddToggle({[v7("\195\255\0\246","\183\141\158\109\147\152")]=v7("\31\25\227\9\40\73\183\92\124","\108\76\105\134"),[v7("\207\192\183\224\219\231\209","\174\139\165\209\129")]=false,[v7("\128\178\238\205\196\2\115\115","\24\195\211\130\161\166\99\16")]=function(v51)if v51 then local v118=555 -(443 + 112) ;while true do if (v118==0) then v12=true;while v12 do local v213=1479 -(888 + 591) ;local v214;while true do if (v213==0) then v214=0 -0 ;while true do if ((0 + 0)==v214) then game.Players.LocalPlayer.Character.Humanoid.WalkSpeed=376 -276 ;wait(0.1 + 0 );break;end end break;end end end break;end end else v12=false;end end});local v11=v13:AddSection({[v7("\104\2\228\41","\118\38\99\137\76\51")]=v7("\219\42\10\5\12\50\218\39\23\22\12\46","\64\157\70\101\114\105")});v13:AddButton({[v7("\110\169\170\230","\112\32\200\199\131")]=v7("\9\94\72\189\209","\66\76\48\60\216\163\203"),[v7("\153\135\117\255\93\207\39\177","\68\218\230\25\147\63\174")]=function()wait(0.1 + 0 );game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(20.254974000000004 + 161 ,57.328634300000004 -27 ,3680.63904 -1693 ,1678.499959469 -(136 + 1542) ,v7("\224\122","\214\205\74\51\44"), -0.866048813,0 -0 ,1 + 0 ,v7("\183\28","\23\154\44\130\156"),0.866048813,0 -0 ,0.499959469 + 0 );end});v13:AddToggle({[v7("\63\167\160\171","\115\113\198\205\206\86")]=v7("\165\66\234\85\196\116\241\86\136\82\253\78\196\103\242\91\138\67\237","\58\228\55\158"),[v7("\144\140\214\47\41\161\33","\85\212\233\176\78\92\205")]=false,[v7("\105\89\132\238\72\89\139\233","\130\42\56\232")]=function(v53)if v53 then v12=true;while v12 do local v166=486 -(68 + 418) ;local v167;while true do if (v166==7) then game:GetService(v7("\62\247\237\132\120\15\243\233\141\117\63\230\242\154\112\11\247","\17\108\146\157\232")):WaitForChild(v7("\101\198\0\250\32\186\64","\200\43\163\116\141\79")):WaitForChild(v7("\150\56\46\151\177\250\224\182\56\58\188\150\253\241\186\21\40\144\164\251\238\153\36\50\142\147\248\234\186\56\41","\131\223\86\93\227\208\148")):FireServer(unpack(v167));wait(2 -1 );break;end if (v166==(3 -1)) then wait(0.5);v167={[1 + 0 ]=v7("\46\48\21\87\1\31\218\9\46\30\69\10","\157\104\92\122\32\100\109"),[1094 -(770 + 322) ]=v7("\128\170\206\195\48\23\129\170\173\178","\203\195\198\175\170\93\71\237"),[1 + 2 ]=2 + 2 };game:GetService(v7("\28\78\46\217\88\18\253\58\78\58\230\69\30\238\47\76\59","\156\78\43\94\181\49\113")):WaitForChild(v7("\92\237\208\180\4\81\114","\25\18\136\164\195\107\35")):WaitForChild(v7("\193\35\186\91\115\178\194\177\230\42\150\105\123\174\196\155\253\62\189\64\127\154\211\183\229\14\165\70\119\178\213","\216\136\77\201\47\18\220\161")):FireServer(unpack(v167));wait(0.5 + 0 );v166=3 -0 ;end if (v166==3) then v167={[1]=v7("\11\224\36\205\13\206\165\44\254\47\223\6","\226\77\140\75\186\104\188"),[3 -1 ]=v7("\154\194\209\54\66\137\194\209\49\91","\47\217\174\176\95"),[3]=13 -8 };game:GetService(v7("\138\216\102\14\187\87\121\50\189\217\69\22\189\70\121\33\189","\70\216\189\22\98\210\52\24")):WaitForChild(v7("\244\218\183\144\220\200\212","\179\186\191\195\231")):WaitForChild(v7("\208\49\11\240\248\49\27\237\247\56\39\194\240\45\29\199\236\44\12\235\244\25\10\235\244\28\20\237\252\49\12","\132\153\95\120")):FireServer(unpack(v167));wait(0.5);v167={[3 -2 ]=v7("\151\190\1\58\242\200\135\176\160\10\40\249","\192\209\210\110\77\151\186"),[2 + 0 ]=v7("\195\15\35\224\242\244\236\2\44\253","\164\128\99\66\137\159"),[4 -1 ]=3 + 3 };v166=3 + 1 ;end if (v166==6) then v167={[1]=v7("\171\252\138\248\56\159\215\132\253\57\136\254","\93\237\144\229\143"),[2]=v7("\54\250\241\16\6\118\25\247\254\13","\38\117\150\144\121\107"),[3]=9};game:GetService(v7("\31\190\254\54\36\184\239\46\40\191\221\46\34\169\239\61\40","\90\77\219\142")):WaitForChild(v7("\200\1\53\46\67\21\113","\26\134\100\65\89\44\103")):WaitForChild(v7("\216\237\35\55\165\255\224\57\45\163\206\197\57\49\161\210\246\35\55\171\252\197\34\44\169\210\239\57\38\170\229","\196\145\131\80\67")):FireServer(unpack(v167));wait(0.5 + 0 );v167={[3 -2 ]=v7("\56\188\9\31\29\250\57\177\20\12\29\230","\136\126\208\102\104\120"),[2 -0 ]=v7("\91\134\207\74\162\98\49\80\118\158","\49\24\234\174\35\207\50\93"),[3]=4 + 6 };v166=32 -25 ;end if (0==v166) then local v215=0 -0 ;while true do if (v215==(1 + 0)) then wait(0.5 -0 );v167={[1]=v7("\15\160\63\47\44\190\23\57\59\168\53\54","\88\73\204\80"),[833 -(762 + 69) ]=v7("\13\143\17\79\36\234\34\130\30\82","\186\78\227\112\38\73"),[3]=6 -4 };v215=2 + 0 ;end if (v215==(0 + 0)) then v167={[2 -1 ]=v7("\204\185\43\244\69\45\205\180\54\231\69\49","\95\138\213\68\131\32"),[2]=v7("\9\36\160\74\123\26\36\160\77\98","\22\74\72\193\35"),[3]=1};game:GetService(v7("\30\124\244\84\37\122\229\76\41\125\215\76\35\107\229\95\41","\56\76\25\132")):WaitForChild(v7("\112\196\191\49\192\76\202","\175\62\161\203\70")):WaitForChild(v7("\21\211\208\7\52\50\222\202\29\50\3\251\202\1\48\31\200\208\7\58\49\251\209\28\56\31\209\202\22\59\40","\85\92\189\163\115")):FireServer(unpack(v167));v215=1 + 0 ;end if (v215==(1 + 1)) then v166=1;break;end end end if (4==v166) then game:GetService(v7("\50\140\249\178\9\138\232\170\5\141\218\170\15\155\232\185\5","\222\96\233\137")):WaitForChild(v7("\151\182\179\8\135\225\251","\144\217\211\199\127\232\147")):WaitForChild(v7("\209\33\45\60\212\75\1\77\246\40\1\14\220\87\7\103\237\60\42\39\216\99\16\75\245\12\50\33\208\75\22","\36\152\79\94\72\181\37\98")):FireServer(unpack(v167));wait(0.5);v167={[1]=v7("\241\212\72\40\210\202\96\62\197\220\66\49","\95\183\184\39"),[7 -5 ]=v7("\150\51\230\47\89\176\14\180\49\243","\98\213\95\135\70\52\224"),[160 -(8 + 149) ]=1327 -(1199 + 121) };game:GetService(v7("\204\166\217\123\93\253\162\221\114\80\205\183\198\101\85\249\166","\52\158\195\169\23")):WaitForChild(v7("\84\185\38\99\137\39\112","\235\26\220\82\20\230\85\27")):WaitForChild(v7("\161\175\250\214\117\134\162\224\204\115\183\135\224\208\113\171\180\250\214\123\133\135\251\205\121\171\173\224\199\122\156","\20\232\193\137\162")):FireServer(unpack(v167));v166=8 -3 ;end if (v166==(10 -5)) then wait(0.5 + 0 );v167={[1]=v7("\4\211\202\177\226\158\48\112\48\219\192\168","\17\66\191\165\198\135\236\119"),[6 -4 ]=v7("\44\163\175\26\242\216\224\208\1\187","\177\111\207\206\115\159\136\140"),[6 -3 ]=8};game:GetService(v7("\55\140\0\24\221\76\94\17\140\20\39\192\64\77\4\142\21","\63\101\233\112\116\180\47")):WaitForChild(v7("\237\62\249\5\247\36\200","\86\163\91\141\114\152")):WaitForChild(v7("\122\5\103\103\59\93\8\125\125\61\108\45\125\97\63\112\30\103\103\53\94\45\102\124\55\112\7\125\118\52\71","\90\51\107\20\19")):FireServer(unpack(v167));wait(0.5);v166=6 + 0 ;end if ((1808 -(518 + 1289))==v166) then game:GetService(v7("\206\82\237\89\90\121\253\67\248\81\96\110\243\69\252\82\86","\26\156\55\157\53\51")):WaitForChild(v7("\162\221\2\206\183\66\135","\48\236\184\118\185\216")):WaitForChild(v7("\204\179\68\36\206\58\230\180\89\55\240\18\236\175\82\19\218\39\241\178\90\22\221\59\232\158\91\57\202\58\241","\84\133\221\55\80\175")):FireServer(unpack(v167));wait(0.5);v167={[1]=v7("\155\235\43\177\194\78\154\230\54\162\194\82","\60\221\135\68\198\167"),[2 -0 ]=v7("\205\177\249\138\79\233\226\188\246\151","\185\142\221\152\227\34"),[1 + 2 ]=3 -0 };game:GetService(v7("\106\192\71\246\74\48\246\76\192\83\201\87\60\229\89\194\82","\151\56\165\55\154\35\83")):WaitForChild(v7("\142\70\17\249\175\81\14","\142\192\35\101")):WaitForChild(v7("\255\123\58\183\230\130\175\31\216\114\22\133\238\158\169\53\195\102\61\172\234\170\190\25\219\86\37\170\226\130\184","\118\182\21\73\195\135\236\204")):FireServer(unpack(v167));v166=2 + 0 ;end end end else v12=false;end end});v13:AddToggle({[v7("\205\68\187\179","\213\131\37\214\214\125")]=v7("\7\62\49\176\161\22\36\41\182\247\39\63","\129\70\75\69\223"),[v7("\98\206\245\232\105\227\82","\143\38\171\147\137\28")]=false,[v7("\243\131\181\255\1\226\215\219","\180\176\226\217\147\99\131")]=function(v54)if v54 then local v119=0;while true do if (v119==(469 -(304 + 165))) then v12=true;while v12 do local v216=0;local v217;while true do if (v216==9) then v217={[1]=v7("\30\50\236\237\236\248\244\176\42\58\230\244","\209\88\94\131\154\137\138\179"),[2 + 0 ]=v7("\31\160\208\121\12\16\52\39\44","\66\72\193\164\28\126\67\81"),[3]=170 -(54 + 106) };game:GetService(v7("\213\41\184\84\47\117\230\56\173\92\21\98\232\62\169\95\35","\22\135\76\200\56\70")):WaitForChild(v7("\163\53\236\51\82\243\134","\129\237\80\152\68\61")):WaitForChild(v7("\120\166\23\231\29\25\91\88\166\3\204\53\25\78\94\163\1\208\9\4\76\94\165\34\225\19\26\123\93\161\1\253\8","\56\49\200\100\147\124\119")):InvokeServer(unpack(v217));wait(1970 -(1618 + 351) );break;end if (v216==(5 + 1)) then v217={[1]=v7("\229\112\232\5\83\209\91\230\0\82\198\114","\54\163\28\135\114"),[1018 -(10 + 1006) ]=v7("\31\218\73\135\92\76\45\222\89","\31\72\187\61\226\46"),[1 + 2 ]=1 + 6 };game:GetService(v7("\241\3\83\222\78\125\37\215\3\71\225\83\113\54\194\1\70","\68\163\102\35\178\39\30")):WaitForChild(v7("\144\117\206\208\12\167\136","\113\222\16\186\167\99\213\227")):WaitForChild(v7("\7\0\232\226\47\0\248\255\32\9\196\223\32\24\244\253\43\45\238\229\58\1\246\208\60\1\246\213\34\7\254\248\58","\150\78\110\155")):InvokeServer(unpack(v217));wait(0.5 -0 );v216=1040 -(912 + 121) ;end if (7==v216) then v217={[1]=v7("\163\201\40\246\161\12\152\65\151\193\34\239","\32\229\165\71\129\196\126\223"),[2]=v7("\244\136\208\132\147\230\198\140\192","\181\163\233\164\225\225"),[2 + 1 ]=1297 -(1140 + 149) };game:GetService(v7("\98\142\46\123\89\136\63\99\85\143\13\99\95\153\63\112\85","\23\48\235\94")):WaitForChild(v7("\82\223\204\74\88\33\217","\178\28\186\184\61\55\83")):WaitForChild(v7("\237\195\84\40\243\0\246\205\195\64\3\219\0\227\203\198\66\31\231\29\225\203\192\97\46\253\3\214\200\196\66\50\230","\149\164\173\39\92\146\110")):InvokeServer(unpack(v217));wait(0.5 + 0 );v216=10 -2 ;end if (v216==(1 + 1)) then local v266=0 -0 ;while true do if (v266==1) then wait(0.5 -0 );v216=1 + 2 ;break;end if (v266==0) then v217={[1]=v7("\101\19\181\176\7\97\100\30\168\163\7\125","\19\35\127\218\199\98"),[2]=v7("\43\250\30\231\14\200\15\231\24","\130\124\155\106"),[10 -7 ]=3};game:GetService(v7("\231\206\230\163\170\245\125\171\208\207\197\187\172\228\125\184\208","\223\181\171\150\207\195\150\28")):WaitForChild(v7("\98\63\247\185\6\94\49","\105\44\90\131\206")):WaitForChild(v7("\214\238\161\173\9\48\252\233\188\190\55\23\241\246\189\178\13\29\234\243\166\182\5\24\237\239\191\154\4\55\250\238\166","\94\159\128\210\217\104")):InvokeServer(unpack(v217));v266=187 -(165 + 21) ;end end end if (v216==(119 -(61 + 50))) then v217={[1 + 0 ]=v7("\213\43\31\8\31\9\212\38\2\27\31\21","\123\147\71\112\127\122"),[9 -7 ]=v7("\251\204\150\116\84\255\200\135\117","\38\172\173\226\17"),[3]=17 -8 };game:GetService(v7("\127\20\60\227\68\18\45\251\72\21\31\251\66\3\45\232\72","\143\45\113\76")):WaitForChild(v7("\150\189\8\43\183\170\23","\92\216\216\124")):WaitForChild(v7("\114\60\191\84\252\85\49\165\78\250\100\27\162\86\242\80\55\143\85\238\79\61\161\102\239\84\63\143\76\244\94\60\184","\157\59\82\204\32")):InvokeServer(unpack(v217));wait(0.5);v216=4 + 5 ;end if (v216==5) then v217={[1461 -(1295 + 165) ]=v7("\167\202\94\229\204\78\166\199\67\246\204\82","\60\225\166\49\146\169"),[2]=v7("\24\31\59\47\19\52\42\27\43","\103\79\126\79\74\97"),[1 + 2 ]=6};game:GetService(v7("\136\122\195\127\87\25\187\107\214\119\109\14\181\109\210\116\91","\122\218\31\179\19\62")):WaitForChild(v7("\157\211\217\214\198\179\78","\37\211\182\173\161\169\193")):WaitForChild(v7("\222\52\94\205\41\117\186\254\52\74\230\1\117\175\248\49\72\250\61\104\173\248\55\107\203\39\118\154\251\51\72\215\60","\217\151\90\45\185\72\27")):InvokeServer(unpack(v217));wait(0.5);v216=6;end if (v216==(2 + 2)) then local v267=1397 -(819 + 578) ;while true do if (v267==(1403 -(331 + 1071))) then wait(0.5);v216=748 -(588 + 155) ;break;end if (v267==0) then v217={[1]=v7("\173\214\58\241\131\1\23\7\153\222\48\232","\102\235\186\85\134\230\115\80"),[1284 -(546 + 736) ]=v7("\96\13\42\90\96\231\39\82\8","\66\55\108\94\63\18\180"),[1940 -(1834 + 103) ]=5};game:GetService(v7("\38\136\149\59\46\90\21\153\128\51\20\77\27\159\132\48\34","\57\116\237\229\87\71")):WaitForChild(v7("\132\180\249\240\120\252\76","\39\202\209\141\135\23\142")):WaitForChild(v7("\214\61\26\30\51\246\252\58\7\13\13\209\241\37\6\1\55\219\234\32\29\5\63\222\237\60\4\41\62\241\250\61\29","\152\159\83\105\106\82")):InvokeServer(unpack(v217));v267=1 + 0 ;end end end if (v216==(8 -5)) then v217={[1767 -(1536 + 230) ]=v7("\118\245\9\168\90\109\222\123\66\253\3\177","\26\48\153\102\223\63\31\153"),[2]=v7("\53\65\249\246\16\115\232\246\6","\147\98\32\141"),[494 -(128 + 363) ]=1 + 3 };game:GetService(v7("\42\70\243\198\15\85\74\12\70\231\249\18\89\89\25\68\230","\43\120\35\131\170\102\54")):WaitForChild(v7("\122\3\147\161\170\162\143","\228\52\102\231\214\197\208")):WaitForChild(v7("\55\238\102\222\235\133\26\223\16\231\74\227\228\157\22\221\27\195\96\217\254\132\20\240\12\239\120\233\230\130\28\216\10","\182\126\128\21\170\138\235\121")):InvokeServer(unpack(v217));wait(0.5 -0 );v216=4;end if (v216==1) then v217={[1 + 0 ]=v7("\165\91\223\2\88\45\164\86\194\17\88\49","\95\227\55\176\117\61"),[2 -0 ]=v7("\47\127\55\78\185\43\123\38\79","\203\120\30\67\43"),[8 -5 ]=2};game:GetService(v7("\195\32\93\227\208\242\36\89\234\221\194\49\66\253\216\246\32","\185\145\69\45\143")):WaitForChild(v7("\164\26\13\177\211\152\20","\188\234\127\121\198")):WaitForChild(v7("\17\60\0\151\57\60\16\138\54\53\44\170\54\36\28\136\61\17\6\144\44\61\30\165\42\61\30\160\52\59\22\141\44","\227\88\82\115")):InvokeServer(unpack(v217));wait(0.5 -0 );v216=2 + 0 ;end if ((1009 -(615 + 394))==v216) then v217={[1 + 0 ]=v7("\245\181\32\16\214\171\8\6\193\189\42\9","\103\179\217\79"),[2 + 0 ]=v7("\125\182\8\208\83\191\166\79\179","\195\42\215\124\181\33\236"),[9 -6 ]=1};game:GetService(v7("\63\92\39\50\44\251\12\77\50\58\22\236\2\75\54\57\32","\152\109\57\87\94\69")):WaitForChild(v7("\215\210\30\180\177\192\95","\200\153\183\106\195\222\178\52")):WaitForChild(v7("\27\237\155\41\72\84\49\234\134\58\118\115\60\245\135\54\76\121\39\240\156\50\68\124\32\236\133\30\69\83\55\237\156","\58\82\131\232\93\41")):InvokeServer(unpack(v217));wait(0.5);v216=4 -3 ;end end end break;end end else v12=false;end end});local v11=v13:AddSection({[v7("\226\63\178\245","\144\172\94\223")]=v7("\7\14\176\83\100\61\171\67\33\79\139\73\48\0\226\119\54\10\177\83\43\1","\39\68\111\194")});v13:AddButton({[v7("\248\167\234\194","\215\182\198\135\167\25")]=v7("\168\71\254\77\159","\40\237\41\138"),[v7("\228\117\246\244\72\198\119\241","\42\167\20\154\152")]=function()local v55=651 -(59 + 592) ;while true do if (0==v55) then wait(0.1 -0 );game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(1743.3507690000001 -796 ,12.312627800000001 + 4 ,2568.38672,0.704517305, -9.451134e-9, -(171.709686816 -(70 + 101)), -(6.8573774e-10 -0),1 + 0 , -(1.3998074e-8 -0),241.709686816 -(123 + 118) ,1.0348544e-8,0.704517305);break;end end end});v13:AddButton({[v7("\100\255\175\71","\65\42\158\194\34\17")]=v7("\60\46\92\5\62\229","\142\122\71\50\108\77\141\123"),[v7("\54\163\243\20\57\20\161\244","\91\117\194\159\120")]=function()local v56=0;local v57;while true do if (v56==(0 + 0)) then v57=0;while true do if (v57==(0 + 0)) then wait(0.1);game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new( -1040.32153,1455.9569359 -(653 + 746) , -(8707.04199 -4051), -0.8786515, -8.537674e-9, -(0.477463633 -0),2.7907863e-9 -0 ,1 + 0 , -2.3017044e-8,0.477463633 + 0 , -2.155646e-8, -0.8786515);break;end end break;end end end});local v14=v9:MakeTab({[v7("\52\28\51\29","\68\122\125\94\120\85\145")]=v7("\49\29\220\74\136\251\175\14\25\221","\218\119\124\175\62\168\185"),[v7("\140\243\71\202","\164\197\144\40")]="rbxassetid://4483345998",[v7("\179\226\175\134\212\163\142\223\164\135\196","\214\227\144\202\235\189")]=false});local v11=v14:AddSection({[v7("\195\164\138\126","\92\141\197\231\27\112\211\51")]=v7("\192\254\153\183\145\196\234\147\166\195","\177\134\159\234\195")});v14:AddButton({[v7("\147\234\50\165","\169\221\139\95\192")]=v7("\236\138\113\59\45\43\158\187\112\43\43\41\208\152","\70\190\235\31\95\66"),[v7("\153\227\22\234\231\187\225\17","\133\218\130\122\134")]=function()wait(0.2 + 0 );game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(112.84228499999995 + 795 ,3.5527353 + 12 , -(21.45902061 -12), -(0.999849796 + 0),0 -0 , -(1234.0173500739 -(885 + 349)),0 + 0 ,1,0,0.0173500739 -0 ,0 -0 , -0.999849796);end});v14:AddButton({[v7("\18\254\238\193","\88\92\159\131\164\188\195")]=v7("\178\47\177\79\216\230\157\165\32\188\67\214\229\201\147","\189\224\78\223\43\183\139"),[v7("\13\253\134\26\195\47\255\129","\161\78\156\234\118")]=function()local v59=968 -(915 + 53) ;local v60;while true do if (v59==(801 -(768 + 33))) then v60=0;while true do if (v60==(0 -0)) then wait(0.2 -0 );game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(696.0824279999999 -(287 + 41) ,15.5527353,936.625267 -(638 + 209) , -(0.0173809528 + 0),1686 -(96 + 1590) ,1672.999849021 -(741 + 931) ,0 + 0 ,2 -1 ,0, -0.999849021,0 -0 , -(0.0173809528 + 0));break;end end break;end end end});v14:AddButton({[v7("\137\182\196\217","\188\199\215\169")]=v7("\206\8\81\127\231\241\73\121\105\253\245\29\76","\136\156\105\63\27"),[v7("\56\141\117\56\25\141\122\63","\84\123\236\25")]=function()local v61=0 + 0 ;while true do if (v61==(0 + 0)) then wait(0.2 -0 );game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(225.65753199999995 + 467 ,8.5527353 + 7 ,1325.434448 -1000 , -(0.0173809528 + 0),494 -(64 + 430) ,0.999849021,0 + 0 ,364 -(106 + 257) ,0, -(0.999849021 + 0),0, -0.0173809528);break;end end end});v14:AddButton({[v7("\222\138\167\18","\213\144\235\202\119\204")]=v7("\17\25\208\46\39\46\13\5\10\203\35\60\48\13\10\49","\45\67\120\190\74\72\67"),[v7("\3\35\225\169\251\137\237\226","\137\64\66\141\197\153\232\142")]=function()local v62=721 -(496 + 225) ;local v63;while true do if (v62==(0 -0)) then v63=0 -0 ;while true do if (v63==(1658 -(256 + 1402))) then wait(0.2);game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(1031.28357,15.5683575,1034.90051, -0.999849796,0, -(1899.0173500739 -(30 + 1869)),0,1370 -(213 + 1156) ,188 -(96 + 92) ,0.0173500739 + 0 ,899 -(142 + 757) , -(0.999849796 + 0));break;end end break;end end end});v14:AddButton({[v7("\45\209\47\163","\232\99\176\66\198")]=v7("\222\32\38\2\116\128\185\28\227\53\33\9\117\158\185\5\197","\76\140\65\72\102\27\237\153"),[v7("\105\219\26\222\213\0\189\65","\222\42\186\118\178\183\97")]=function()local v64=0 + 0 ;while true do if ((79 -(32 + 47))==v64) then wait(0.2);game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(2964.409729 -(1053 + 924) ,15.5683575,1291.76245 + 27 , -0.0173809528,0,0.999849021 -0 ,0,1,1648 -(685 + 963) , -(0.999849021 -0),0, -(0.0173809528 -0));break;end end end});v14:AddButton({[v7("\115\237\73\143","\234\61\140\36")]=v7("\19\220\180\118\0\44\157\159\124\12\41\220\180\102\28\97\244\147","\111\65\189\218\18"),[v7("\96\74\23\57\9\93\172\72","\207\35\43\123\85\107\60")]=function()local v65=1709 -(541 + 1168) ;local v66;while true do if (v65==(1597 -(645 + 952))) then v66=0;while true do if (v66==(838 -(669 + 169))) then wait(0.2 -0 );game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(1726.329468 -931 ,6.568357499999999 + 9 ,396.85961999999995 + 1399 , -0.0173809528,765 -(181 + 584) ,1395.999849021 -(665 + 730) ,0,1,0 -0 , -(0.999849021 -0),1350 -(540 + 810) , -(0.0173809528 -0));break;end end break;end end end});v14:AddButton({[v7("\94\171\173\239","\25\16\202\192\138")]=v7("\207\202\191\231\233\196\242\223\164\237\167","\148\157\171\205\130\201"),[v7("\0\213\120\37\211\247\32\223","\150\67\180\20\73\177")]=function()local v67=0;while true do if (v67==(0 -0)) then wait(0.2 + 0 );game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(1684.37402 -(166 + 37) ,1896.2316093 -(22 + 1859) ,3697.0732399999997 -(843 + 929) , -(262.999849796 -(30 + 232)),0, -(0.0173500739 -0),0,1,0,0.0173500739,777 -(55 + 722) , -0.999849796);break;end end end});v14:AddButton({[v7("\163\25\23\72","\45\237\120\122")]=v7("\240\233\176\40\210\230\226\1\210\250\161\36\214\230\182","\76\183\136\194"),[v7("\89\231\233\52\82\78\23\113","\116\26\134\133\88\48\47")]=function()local v68=0 -0 ;local v69;while true do if (v68==0) then v69=1675 -(78 + 1597) ;while true do if (v69==(0 + 0)) then wait(0.2 + 0 );game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(258.795471,11.6074181 + 2 ,2606.83374 -(305 + 244) ,0,0 + 0 , -(106 -(95 + 10)),0 + 0 ,3 -2 ,0 -0 ,763 -(592 + 170) ,0,0 -0 );break;end end break;end end end});v14:AddButton({[v7("\48\192\173\225","\18\126\161\192\132\221")]=v7("\126\44\184\1\88\92\45\170\68\123\90\58\173\12\87\81\60","\54\63\72\206\100"),[v7("\235\88\73\118\231\122\203\82","\27\168\57\37\26\133")]=function()local v70=0 -0 ;while true do if ((0 + 0)==v70) then wait(0.2);game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(319.22637899999995 + 499 ,31.5698595 -18 ,1555.54028, -(0.0173809528 + 0),0 -0 ,507.999849021 -(353 + 154) ,0,1,0 -0 , -0.999849021,0 -0 , -0.0173809528);break;end end end});v14:AddButton({[v7("\3\171\113\173","\183\77\202\28\200")]=v7("\58\54\155\11\31\50\135\28","\104\119\83\233"),[v7("\214\249\43\46\65\244\251\44","\35\149\152\71\66")]=function()local v71=0 + 0 ;local v72;local v73;while true do if (v71==(1 + 0)) then while true do if (v72==0) then v73=0;while true do if (v73==0) then wait(0.2 + 0 );game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(534.71991 -164 ,13.5606432,1071.13446 -505 , -0.0173809528,0 -0 ,86.999849021 -(7 + 79) ,0,1 + 0 ,181 -(24 + 157) , -(0.999849021 -0),0 -0 , -(0.0173809528 + 0));break;end end break;end end break;end if ((0 -0)==v71) then v72=380 -(262 + 118) ;v73=nil;v71=1;end end end});local v15=v9:MakeTab({[v7("\55\233\79\181","\90\121\136\34\208")]=v7("\224\27\92","\126\167\110\53"),[v7("\20\19\33\246","\95\93\112\78\152\188")]="rbxassetid://4483345998",[v7("\241\231\128\24\237\171\223\238\251\137\12","\178\161\149\229\117\132\222")]=false});local v11=v15:AddSection({[v7("\166\218\208\169","\67\232\187\189\204\193\118\198")]=v7("\172\59\188","\143\235\78\213\64\91\98")});v15:AddButton({[v7("\163\73\137\236","\214\237\40\228\137\16")]=v7("\181\230\251\202\67\131\148\246\230\201\19\163\129","\198\229\131\143\185\99"),[v7("\114\141\164\127\83\141\171\120","\19\49\236\200")]=function()local v74=1083 -(1038 + 45) ;while true do if (v74==(0 -0)) then wait(230.1 -(19 + 211) );game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(692.51825,128.5616398 -(88 + 25) , -(682.601044 -414),0.0173808932 + 0 ,v7("\179\103","\218\158\87\150\215\132"), -0.999849021,0 + 0 ,1037 -(1007 + 29) ,v7("\182\78","\173\155\126\185\130\86\66"),0.999849021,0 + 0 ,0.0173808932 -0 );break;end end end});v15:AddButton({[v7("\203\167\183\194","\140\133\198\218\167\232")]=v7("\144\41\179\61\169\180\61\188\116\138\176","\228\213\78\212\29"),[v7("\164\77\186\9\233\134\79\189","\139\231\44\214\101")]=function()wait(0.1);game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(2535.611389 -1999 ,4.5618400999999995 + 11 ,902.1107635 -(340 + 471) , -(0.0173809528 -0),0,589.999849021 -(276 + 313) ,0,2 -1 ,0, -(0.999849021 + 0),0, -(0.0173809528 + 0));end});v15:AddButton({[v7("\247\238\11\91","\118\185\143\102\62\112\209\81")]=v7("\123\127\37\226\160\27\92\8\89\100\58","\88\60\16\73\134\197\117\124"),[v7("\115\235\244\196\67\81\233\243","\33\48\138\152\168")]=function()local v76=0 + 0 ;while true do if (v76==0) then wait(1972.1 -(495 + 1477) );game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(464.055801 -309 ,10.5503864 + 5 ,414.7445469 -(342 + 61) ,0.999849498 + 0 ,0,165.0173500739 -(4 + 161) ,0 + 0 ,3 -2 ,0, -0.0173500739,0 -0 ,497.999849498 -(322 + 175) );break;end end end});v15:AddButton({[v7("\92\23\61\84","\87\18\118\80\49\161")]=v7("\121\14\221\178\177\72\27\154\144\191\88\23\213\174","\208\44\126\186\192"),[v7("\212\27\168\202\22\253\202\69","\46\151\122\196\166\116\156\169")]=function()wait(563.1 -(173 + 390) );game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(531.810059,4.5644913 + 11 ,639.669403 -(203 + 111) , -(0.0173809528 + 0),0 + 0 ,0.999849021,0 -0 ,1 + 0 ,706 -(57 + 649) , -0.999849021,384 -(328 + 56) , -(0.0173809528 + 0));end});v15:AddButton({[v7("\203\236\75\31","\155\133\141\38\122")]=v7("\16\58\171\83\78\123\160\101\15\162\66\71\126\171\49","\197\69\74\204\33\47\31"),[v7("\211\78\86\139\242\78\89\140","\231\144\47\58")]=function()local v78=512 -(433 + 79) ;while true do if (v78==0) then wait(0.1 + 0 );game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(738.696777 + 176 ,15.561552,481.951569, -0.999849796,0 -0 , -(0.0173500739 -0),0 + 0 ,1,0,0.0173500739 + 0 ,0, -0.999849796);break;end end end});v15:AddButton({[v7("\156\217\215\112","\89\210\184\186\21\120\93\175")]=v7("\156\86\110\214\113\59\191\71","\90\209\51\28\181\25"),[v7("\243\122\91\226\189\209\120\92","\223\176\27\55\142")]=function()local v79=1036 -(562 + 474) ;while true do if (v79==(0 -0)) then wait(0.1);game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(370.71991,30.5606432 -15 ,1471.13446 -(76 + 829) , -(1673.0173809528 -(1506 + 167)),0,0.999849021,0,1,0, -0.999849021,0 -0 , -(266.0173809528 -(58 + 208)));break;end end end});v15:AddButton({[v7("\10\186\195\176","\213\68\219\174")]=v7("\47\225\58\228\43\215\58","\31\107\128\67\135\74\165\95"),[v7("\251\233\240\65\67\176\219\227","\209\184\136\156\45\33")]=function()local v80=0;while true do if (v80==(0 + 0)) then wait(0.1 + 0 );game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(75.25502 + 55 ,61.5606432 -46 ,846.209473 -(258 + 79) ,0.999849498 + 0 ,0,0.0173500739 -0 ,1470 -(1219 + 251) ,1672 -(1231 + 440) ,0, -(58.0173500739 -(34 + 24)),0,0.999849498 + 0 );break;end end end});v15:AddButton({[v7("\41\201\120\13","\216\103\168\21\104")]=v7("\94\184\80\161","\196\24\205\35"),[v7("\13\138\239\10\44\138\224\13","\102\78\235\131")]=function()local v81=0 -0 ;while true do if (v81==(0 + 0)) then wait(0.1);game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(2028.949707 -1360 ,15.2590151,1085.71167, -0.0173809528,0 -0 ,0.999849021 -0 ,0 -0 ,2 -1 ,1589 -(877 + 712) , -(0.999849021 + 0),754 -(242 + 512) , -(0.0173809528 -0));break;end end end});v15:AddButton({[v7("\212\47\57\65","\84\154\78\84\36\39\89\215")]=v7("\220\229\64\89\11\254\228\82\24\40\248\243\85\80\4\243\245","\101\157\129\54\56"),[v7("\62\168\134\167\33\120\30\162","\25\125\201\234\203\67")]=function()local v82=627 -(92 + 535) ;while true do if (v82==(0 + 0)) then wait(0.1);game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(1684.226379 -866 ,1.5698594999999997 + 14 ,1555.54028, -0.0173809528,0 -0 ,0.999849021 + 0 ,0,1,0, -(0.999849021 + 0),0 + 0 , -0.0173809528);break;end end end});v15:AddButton({[v7("\87\245\21\6","\115\25\148\120\99\116\71")]=v7("\45\57\175\37\79\15\56\189\100\108\9\47\186\44\64\2\41","\33\108\93\217\68"),[v7("\248\74\173\161\217\74\162\166","\205\187\43\193")]=function()local v83=0 -0 ;local v84;while true do if (v83==(0 -0)) then v84=1785 -(1476 + 309) ;while true do if ((1284 -(299 + 985))==v84) then wait(0.1 + 0 );game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(1733.962769 -1204 ,110.62743760000001 -(86 + 7) ,2192.81616,0.224959731 -0 ,0,0.974368095,0 + 0 ,881 -(672 + 208) ,0 + 0 , -0.974368095,132 -(14 + 118) ,0.224959731);break;end end break;end end end});local v16=v9:MakeTab({[v7("\208\115\8\218","\191\158\18\101")]=v7("\224\196\128\164","\207\165\163\231\215"),[v7("\239\250\246\88","\16\166\153\153\54\68")]="rbxassetid://4483345998",[v7("\226\161\197\75\61\52\244\253\189\204\95","\153\178\211\160\38\84\65")]=false});local v11=v16:AddSection({[v7("\172\10\87\46","\75\226\107\58")]=v7("\118\215\18\114\20\197\194","\173\56\190\113\26\113\162")});local v17=v9:MakeTab({[v7("\229\223\32\0","\151\171\190\77\101")]=v7("\225\38\249\164\247\115\15\214\111\222\168\234\112","\107\165\79\152\201\152\29"),[v7("\126\77\231\197","\31\55\46\136\171\52")]="rbxassetid://7628736558",[v7("\225\58\217\249\216\61\209\219\223\36\197","\148\177\72\188")]=false});local v11=v17:AddSection({[v7("\136\183\90\214","\179\198\214\55")]=v7("\212\5\115\123\74\221\244\31\50\80\68\193\253","\179\144\108\18\22\37")});v17:AddButton({[v7("\232\162\22\140","\175\166\195\123\233")]=v7("\219\242\29\69\255\236\195\73\64\255\225","\144\143\162\61\41"),[v7("\195\210\17\92\112\134\48\235","\83\128\179\125\48\18\231")]=function()wait(0.1);game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(659.122131 -(339 + 106) ,24.4171562, -(467.11926300000005 + 120),1,0,0,0,1,0 + 0 ,1395 -(440 + 955) ,0,1 + 0 );end});local v12=false;v17:AddToggle({[v7("\115\182\254\216","\126\61\215\147\189\39")]=v7("\75\239\28\82\118\191\57\76\121\242\18\75\124\191\59\73\121\248","\37\24\159\125"),[v7("\254\163\115\67\207\170\97","\34\186\198\21")]=false,[v7("\219\9\201\81\192\249\11\206","\162\152\104\165\61")]=function(v86)if v86 then local v120=0 -0 ;while true do if (v120==(0 + 0)) then v12=true;while v12 do local v224=0 -0 ;local v225;while true do if (v224==0) then local v269=0 + 0 ;while true do if (v269==(354 -(260 + 93))) then v224=1;break;end if (v269==(0 + 0)) then v225={[1]=v7("\233\38\179\112\127\235\201\60\242\91\124\228\202","\133\173\79\210\29\16"),[2]=v7("\137\37\186\114\143\126\185\123\137\36\186\40\217\47\187\121\140\44\181\115\222\43\232\122\220\120\238\46\222\127\236\47","\75\237\28\141")};game:GetService(v7("\238\90\220\189\38\24\230\245\217\91\255\165\32\9\230\230\217","\129\188\63\172\209\79\123\135")):WaitForChild(v7("\110\225\242\218\79\246\237","\173\32\132\134")):WaitForChild(v7("\104\23\9\232\189\107\141\109\20\6\252\187\60\200","\173\46\123\104\143\206\81")):InvokeServer(unpack(v225));v269=2 -1 ;end end end if (v224==(1 -0)) then wait(1);break;end end end break;end end else v12=false;end end});local v11=v17:AddSection({[v7("\154\28\47\143","\97\212\125\66\234\37\227")]="Super Puper Autofarm (NEED AUTO FARM GAYPASS AND TAP, OR HACKS😈)"});local v11=v17:AddSection({[v7("\164\226\187\48","\126\234\131\214\85")]=v7("\166\193\94\26\78\138\193\64\26\86\139\192\9\82\78\146\208\9\91\65\144\220\9\86\78\131\149\64\84\15\137\220\90\89","\47\228\181\41\58")});local v18=v9:MakeTab({[v7("\136\253\212\62","\127\198\156\185\91\99\80")]=v7("\216\19\223\243","\190\149\122\172\144\199\107\89"),[v7("\27\6\254\240","\158\82\101\145\158")]="rbxassetid://4483345998",[v7("\64\236\7\27\77\101\243\45\24\72\105","\36\16\158\98\118")]=false});local v11=v18:AddSection({[v7("\238\23\206\254","\133\160\118\163\155\56\136\71")]=v7("\219\171\98\241","\213\150\194\17\146\214\127")});v18:AddButton({[v7("\53\168\169\209","\86\123\201\196\180\38\196\194")]=v7("\194\251\220\239\209\250\204\166\227\251","\207\151\136\185"),[v7("\139\130\36\142\118\121\114\163","\17\200\227\72\226\20\24")]=function()local v87=1974 -(1181 + 793) ;local v88;local v89;local v90;while true do if (v87==1) then v90=nil;while true do if (v88==(0 + 0)) then local v226=0;while true do if (v226==1) then v88=1;break;end if (v226==(307 -(105 + 202))) then v89=0 + 0 ;v90=nil;v226=811 -(352 + 458) ;end end end if (v88==1) then while true do if (v89==(16 -12)) then wait(0.1 -0 );v90={[1 + 0 ]=v7("\248\39\169\243\217\166\250\248\113\169\241\216\243\170\174\114\171\255\143\242\169\251\119\252\166\142\240\253\248\112\251\161","\152\203\67\202\199\237\199"),[5 -3 ]=950 -(438 + 511) };game:GetService(v7("\200\70\176\3\22\118\120\242\255\71\147\27\16\103\120\225\255","\134\154\35\192\111\127\21\25")):WaitForChild(v7("\150\35\29\29\47\192\179","\178\216\70\105\106\64")):WaitForChild(v7("\25\57\111\255\221\198\142\192\28\36\116\229\220\216\209","\224\95\75\26\150\169\181\180")):FireServer(unpack(v90));break;end if (v89==(1386 -(1262 + 121))) then wait(0.1);v90={[1069 -(728 + 340) ]=v7("\165\132\182\32\6\75\240\210\182\114\88\24\167\134\183\114\88\17\167\208\182\36\84\16\171\210\185\32\2\24\171\210","\40\147\231\129\23\96"),[2]=1791 -(816 + 974) };game:GetService(v7("\71\253\156\73\178\175\221\97\253\136\118\175\163\206\116\255\137","\188\21\152\236\37\219\204")):WaitForChild(v7("\110\236\35\27\79\251\60","\108\32\137\87")):WaitForChild(v7("\140\250\21\175\59\234\17\25\137\231\14\181\58\244\78","\57\202\136\96\198\79\153\43")):FireServer(unpack(v90));v89=12 -8 ;end if (v89==0) then wait(0.2 -0 );v90={[340 -(163 + 176) ]=v7("\232\24\24\128\207\166\182\252\227\64\73\128\157\242\188\169\178\22\31\135\200\240\182\168\181\20\26\214\159\166\191\252","\159\208\33\123\183\169\145\143"),[5 -3 ]=4 -3 };game:GetService(v7("\192\95\40\58\251\89\57\34\247\94\11\34\253\72\57\49\247","\86\146\58\88")):WaitForChild(v7("\118\218\254\215\161\251\61","\154\56\191\138\160\206\137\86")):WaitForChild(v7("\160\75\224\142\104\41\219\140\165\86\251\148\105\55\132","\172\230\57\149\231\28\90\225")):FireServer(unpack(v90));v89=1 + 0 ;end if (v89==2) then wait(0.1);v90={[1811 -(1564 + 246) ]=v7("\69\242\181\152\4\180\16\162\180\200\91\190\16\162\179\153\90\235\29\164\181\203\3\236\70\174\178\207\3\186\28\175","\141\36\151\130\174\98"),[347 -(124 + 221) ]=1 + 0 };game:GetService(v7("\182\127\210\1\141\121\195\25\129\126\241\25\139\104\195\10\129","\109\228\26\162")):WaitForChild(v7("\112\224\233\111\239\244\85","\134\62\133\157\24\128")):WaitForChild(v7("\33\183\15\208\59\162\140\71\134\21\215\60\164\219\2","\182\103\197\122\185\79\209")):FireServer(unpack(v90));v89=454 -(115 + 336) ;end if (v89==(1 -0)) then wait(0.1);v90={[1 + 0 ]=v7("\3\253\133\214\121\139\90\253\211\138\127\218\86\249\222\132\113\141\4\171\208\215\42\142\6\248\210\208\113\131\6\174","\187\98\202\230\178\72"),[48 -(45 + 1) ]=1 + 0 };game:GetService(v7("\19\228\180\60\67\34\224\176\53\78\18\245\171\34\75\38\228","\42\65\129\196\80")):WaitForChild(v7("\44\79\73\205\24\21\9","\142\98\42\61\186\119\103\98")):WaitForChild(v7("\30\173\23\1\44\172\88\72\27\176\12\27\45\178\7","\104\88\223\98")):FireServer(unpack(v90));v89=2;end end break;end end break;end if (v87==(1990 -(1282 + 708))) then v88=1212 -(583 + 629) ;v89=nil;v87=1 + 0 ;end end end});v18:AddButton({[v7("\37\219\213\45","\22\107\186\184\72\36\204")]=v7("\210\174\33\14\58\232\164\55","\110\135\221\68\46"),[v7("\192\55\0\231\204\178\56\232","\91\131\86\108\139\174\211")]=function()local v91=0 -0 ;while true do if (v91==(0 + 0)) then wait(1170.2 -(943 + 227) );game:GetService(v7("\201\46\168\27\84\248\42\172\18\89\200\63\183\5\92\252\46","\61\155\75\216\119")):WaitForChild(v7("\42\174\166\43\87\27\214","\189\100\203\210\92\56\105")):WaitForChild(v7("\28\64\232\45\46\90\228\28\32\72\194\11\32\95\238\61\34\84","\72\79\49\157")):InvokeServer();v91=1;end if (v91==(1 + 0)) then wait(1631.1 -(1539 + 92) );game:GetService(v7("\186\181\33\176\129\179\48\168\141\180\2\168\135\162\48\187\141","\220\232\208\81")):WaitForChild(v7("\219\187\241\39\35\72\170","\193\149\222\133\80\76\58")):WaitForChild(v7("\242\82\86\240\199\81\67\237\229\82\65\193\211\80\74","\178\166\61\47")):InvokeServer();v91=2;end if (2==v91) then wait(1946.1 -(706 + 1240) );game:GetService(v7("\201\79\248\118\195\61\250\94\237\126\249\42\244\88\233\125\207","\94\155\42\136\26\170")):WaitForChild(v7("\170\58\50\162\139\45\45","\213\228\95\70")):WaitForChild(v7("\30\180\219\166\120\36\190\253\167\120\36\168\215\137\114","\23\74\219\162\228")):InvokeServer();break;end end end});v18:AddButton({[v7("\23\231\75\170","\91\89\134\38\207")]=v7("\103\225\216\47\83\211\33\86\239\197\51","\71\36\142\168\86\115\176"),[v7("\252\160\126\179\1\191\85\66","\41\191\193\18\223\99\222\54")]=function()wait(258.2 -(81 + 177) );local v92=game.Players.LocalPlayer;local v93=v92.Character;if v93 then local v121=v93:FindFirstChild(v7("\131\51\202\43\164\164\47\195\24\165\164\50\247\43\184\191","\202\203\70\167\74"));if v121 then local v180=0 -0 ;local v181;local v182;local v183;local v184;local v185;while true do if ((264 -(212 + 45))==v180) then wait(16 -11 );v182:Destroy();break;end if ((1948 -(708 + 1238))==v180) then local v235=0 + 0 ;while true do if (v235==(1 + 1)) then v180=1670 -(586 + 1081) ;break;end if (v235==1) then v183.BackgroundTransparency=511.5 -(348 + 163) ;v183.BorderSizePixel=2;v235=2;end if (v235==(0 + 0)) then v183.Position=UDim2.new(280.5 -(215 + 65) , -(254 -154),1860 -(1541 + 318) , -120);v183.BackgroundColor3=Color3.new(1,0.8 + 0 ,0.8 + 0 );v235=1 + 0 ;end end end if (v180==(1754 -(1036 + 714))) then v184.Size=UDim2.new(0,33 + 17 ,0 + 0 ,50);v184.Position=UDim2.new(1280.5 -(883 + 397) , -(615 -(563 + 27)),0 -0 ,1996 -(1369 + 617) );v184.Image="rbxassetid://14793537772";v184.Parent=v183;v180=1492 -(85 + 1402) ;end if (5==v180) then v185=Instance.new(v7("\56\113\44\188\197\38\245\192\0","\165\108\20\84\200\137\71\151"));v185.Size=UDim2.new(1 + 0 ,0 -0 ,0.5,403 -(274 + 129) );v185.Position=UDim2.new(0,217 -(12 + 205) ,0.5,0 + 0 );v185.Text="Cuteness overload!\nCharacter CFrame copied to clipboard!";v180=6;end if (v180==(0 -0)) then v181=v121.CFrame;print(v7("\15\9\221\33\112\47\21\217\33\49\15\39\206\50\124\41\91","\17\76\97\188\83"),v181);setclipboard(tostring(v181));print(v7("\166\47\216\37\49\128\95\166\151\103\250\17\34\130\70\166\197\36\214\39\57\134\79\227\145\40\153\52\60\138\91\161\138\38\203\51\126","\195\229\71\185\87\80\227\43"));v180=1;end if ((1 + 0)==v180) then v182=Instance.new(v7("\211\255\18\85\234\238\219\21\89","\143\128\156\96\48"));v182.Name=v7("\155\196\228\23\57\183\197\249\20\30\189\195","\119\216\177\144\114");v183=Instance.new(v7("\239\59\248\79\204","\34\169\73\153"));v183.Size=UDim2.new(384 -(27 + 357) ,200,0,100);v180=482 -(91 + 389) ;end if (6==v180) then local v246=297 -(90 + 207) ;local v247;while true do if (v246==(0 + 0)) then v247=861 -(706 + 155) ;while true do if (v247==(1797 -(730 + 1065))) then v180=7;break;end if (v247==(1563 -(1339 + 224))) then v185.TextColor3=Color3.new(0 + 0 ,0 + 0 ,0);v185.BackgroundTransparency=1;v247=1;end if (v247==(1 -0)) then v185.Parent=v183;v182.Parent=v92:WaitForChild(v7("\74\184\42\145\127\166\12\157\115","\232\26\212\75"));v247=2;end end break;end end end if (v180==3) then local v248=843 -(268 + 575) ;while true do if (1==v248) then v183.Parent=v182;v184=Instance.new(v7("\131\225\10\140\175\192\10\137\175\224","\235\202\140\107"));v248=2;end if (v248==(1294 -(919 + 375))) then v183.BorderColor3=Color3.new(1,0,0 -0 );v183.ClipsDescendants=true;v248=972 -(180 + 791) ;end if ((1807 -(323 + 1482))==v248) then v180=1922 -(1177 + 741) ;break;end end end end else warn(v7("\31\92\127\233\249\56\64\118\218\248\56\93\66\233\229\35\9\124\231\227\119\79\125\253\249\51\7","\151\87\41\18\136"));end else warn(v7("\120\167\203\194\255\88\187\207\194\190\85\160\222\144\248\84\186\196\212\176","\158\59\207\170\176"));end end});v18:AddButton({[v7("\97\95\62\76","\236\47\62\83\41")]=v7("\210\160\36\62\234\141\238\161\37\41","\226\154\201\64\91\202"),[v7("\226\72\17\20\72\189\194\66","\220\161\41\125\120\42")]=function()local v94=0;while true do if (v94==(1 + 0)) then while _G.HideAll and task.wait()  do for v186,v187 in pairs(game.Players:GetPlayers()) do if ((v187.Name~=game.Players.LocalPlayer.Name) and v187.Character) then v187.Character:Destroy();end end end break;end if ((0 -0)==v94) then wait(0.2 + 0 );_G.HideAll=true;v94=1 -0 ;end end end});v18:AddButton({[v7("\146\112\173\11","\110\220\17\192")]=v7("\112\124\44\90\230\56\243\174\120\124","\199\20\25\84\122\139\87\145"),[v7("\100\8\209\162\25\235\68\2","\138\39\105\189\206\123")]=function()local v95=0;while true do if (v95==(0 + 0)) then wait(109.2 -(96 + 13) );loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua",true))();break;end end end});v18:AddButton({[v7("\49\6\132\40","\159\127\103\233\77\147\153\175")]=v7("\38\254\240\163\76\202\0","\171\103\144\132\202\32"),[v7("\51\46\229\0\18\46\234\7","\108\112\79\137")]=function()local v96=1921 -(962 + 959) ;local v97;local v98;local v99;local v100;local v101;while true do if (v96==2) then v101=nil;while true do if (v97==(14 -8)) then v101=19 + 86 ;for v249=v100,v101 do if (v249~=(1427 -(461 + 890))) then local v270=0;local v271;local v272;while true do if (v270==(1 + 0)) then if v272 then v272:Destroy();end break;end if (v270==(0 -0)) then v271=tostring(v249)   .. v7("\148\144\97\28\28\211\157\2\56\11\199\200\45\60","\123\180\189\65\89") ;v272=v99:FindFirstChild(v271);v270=1;end end end end wait(244 -(19 + 224) );break;end if (v97==(3 + 0)) then local v227=198 -(37 + 161) ;while true do if (v227==(1 + 0)) then wait(1 + 0 );game:GetService(v7("\117\244\199\46\230\82\250\214\32","\149\34\155\181\69"))[v7("\60\194\225\210\42\211\242\201","\154\99\157\181")][v7("\190\4\229\224\207\133\14\229\178\255","\140\237\111\140\192")]:Destroy();v227=2;end if (v227==(2 + 0)) then v97=4;break;end if (v227==(61 -(60 + 1))) then wait(924 -(826 + 97) );game:GetService(v7("\246\168\6\14\242\243\222\161\196","\194\161\199\116\101\129\131\191"))[v7("\211\27\252\128\222\140\203\23","\194\140\68\168\200\151")].Sounds:Destroy();v227=1;end end end if ((0 + 0)==v97) then wait(0.2 -0 );game:GetService(v7("\8\205\102\35\190\17\232\54\58","\85\95\162\20\72\205\97\137"))[v7("\200\194\30\244\36\214\234\196","\173\151\157\74\188\109\152")].Ornaments:Destroy();wait(1);game:GetService(v7("\19\7\42\214\207\68\212\240\33","\147\68\104\88\189\188\52\181"))[v7("\37\183\191\248\51\166\172\227","\176\122\232\235")].Presents:Destroy();v97=1 -0 ;end if (v97==1) then wait(1);game:GetService(v7("\183\122\40\68\253\144\116\57\74","\142\224\21\90\47"))[v7("\75\235\19\126\141\165\162\71","\229\20\180\71\54\196\235")].ElfModel:Destroy();wait(1);game:GetService(v7("\30\113\211\232\230\186\129\42\123","\224\73\30\161\131\149\202"))[v7("\194\241\240\66\242\234\245\85\206\203\228\93","\48\145\133\145")]:Destroy();v97=687 -(375 + 310) ;end if (v97==(2004 -(1864 + 135))) then wait(0.1 -0 );v98=game:GetService(v7("\201\41\150\171\97\180\255\37\129","\196\158\70\228\192\18"));v99=v98:WaitForChild(v7("\117\96\37\102\240\100\120\34","\185\42\63\113\46")).Eggs.Main;v100=1 + 0 ;v97=6;end if (v97==(2 + 2)) then wait(1);game:GetService(v7("\49\22\111\19\21\9\124\27\3","\120\102\121\29"))[v7("\147\220\141\19\133\205\158\8","\91\204\131\217")].ShinyRelics:Destroy();wait(0.1);game:GetService(v7("\249\240\71\223\160\205\255\205\250","\158\174\159\53\180\211\189"))[v7("\109\194\217\245\94\155\117\206","\213\50\157\141\189\23")].Pets:Destroy();v97=5;end if (2==v97) then wait(1);game:GetService(v7("\109\67\167\229\194\60\91\79\176","\76\58\44\213\142\177")).ThreeDTextObject:Destroy();wait(2 -1 );game:GetService(v7("\252\43\0\38\107\219\37\17\40","\24\171\68\114\77"))[v7("\208\34\100\122\174\240\35\158","\205\143\125\48\50\231\190\100")].AnimatedBreakables:Destroy();v97=3;end end break;end if (v96==(1131 -(314 + 817))) then v97=0;v98=nil;v96=1;end if (v96==(1 + 0)) then v99=nil;v100=nil;v96=2;end end end});v18:AddButton({[v7("\236\141\253\225","\233\162\236\144\132")]=v7("\179\202\234\19\181\247\88\249\132\182\15\170\243\31\165\204\251\20\249\247\74\166\203\248\27\171\251\22","\63\210\164\158\122\217\150"),[v7("\16\202\250\224\75\249\48\192","\152\83\171\150\140\41")]=function()local v102=214 -(32 + 182) ;local v103;local v104;local v105;while true do if (v102==1) then v105=nil;while true do if (v103==0) then local v229=0;while true do if (v229==(0 + 0)) then wait(0.2 -0 );v104=game:GetService(v7("\181\234\145\56\199\11\9\129\224","\104\226\133\227\83\180\123"));v229=66 -(39 + 26) ;end if (v229==(145 -(54 + 90))) then v103=1;break;end end end if (v103==(199 -(45 + 153))) then v105=v104.Map;if v105 then for v273,v274 in pairs(v105:GetChildren()) do if v274:IsA(v7("\37\4\47\84\6\25","\48\99\107\67")) then local v282=0;local v283;local v284;while true do if (v282==(1 + 0)) then if ((v284~=1) and (v284~=(615 -(457 + 95)))) then v274:Destroy();end break;end if (v282==(0 + 0)) then local v291=0 -0 ;while true do if (v291==(2 -1)) then v282=3 -2 ;break;end if (v291==0) then v283=v274.Name;v284=tonumber(v283:match(v7("\150\227\121\155\100\59\194","\27\190\198\29\176\77")));v291=1;end end end end end end else warn(v7("\194\74\237\116\175\65\227\79\248\38\233\64\224\95\189\50\166\91\225\79\179","\46\143\43\157\84\201"));end break;end end break;end if (v102==(0 + 0)) then v103=0;v104=nil;v102=1;end end end});v18:AddButton({[v7("\121\121\91\199","\168\55\24\54\162\63\115")]=v7("\16\255\50\137\193\214\15\186\104\130\199\215\87\247\37\146\209\198\22\244\52\201","\174\119\154\64\224\178"),[v7("\9\127\201\119\7\166\25\239","\132\74\30\165\27\101\199\122")]=function()wait(0.2 -0 );loadstring(game:HttpGet("https://raw.githubusercontent.com/gerisxx/ps99-Script/main/syrexhub"))();end});v18:AddButton({[v7("\1\230\242\162","\212\79\135\159\199\199\213")]=v7("\85\175\185\76\85\217\31","\120\25\192\213\39\60\183"),[v7("\59\65\51\68\26\65\60\67","\40\120\32\95")]=function()local v106=0;while true do if (v106==(0 -0)) then wait(748.1 -(485 + 263) );loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Sim99/main/Pet"))();break;end end end});v18:AddButton({[v7("\20\170\52\127","\127\90\203\89\26\207")]=v7("\212\59\169\194\7\244\201\48\182\194\12\241\217","\157\189\85\207\171\105"),[v7("\229\160\212\185\1\199\162\211","\99\166\193\184\213")]=function()local v107=707 -(575 + 132) ;while true do if (v107==(861 -(750 + 111))) then wait(1010.1 -(445 + 565) );loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))();break;end end end});
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Pet 99", HidePremium = false, IntroText = "Pet 99", SaveConfig = false, ConfigFolder = "PunchSim"})
+
+local MainTab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://13510772267",
+	PremiumOnly = false
+})
+
+local Section = MainTab:AddSection({
+	Name = "Main"
+})
+
+local isRunning = false
+
+MainTab:AddToggle({
+    Name = "test",
+    Default = false,
+    Callback = function(Value)
+        if Value then
+            isRunning = true
+            while isRunning do
+                -- Your script goes here
+                local teleport_table = {
+					location1 = Vector3.new(), -- your desired position
+					location2 = Vector3.new(185.122131, 24.4171562, -565.119263, 1, 0, 0, 0, 1, 0, 0, 0, 1),  -- your desired position
+				}
+				
+				local tween_s = game:GetService('TweenService')
+				local tweeninfo = TweenInfo.new(1,Enum.EasingStyle.Linear)
+				
+				local lp = game.Players.LocalPlayer
+				
+				function bypass_teleport(v)
+					if lp.Character and 
+					lp.Character:FindFirstChild('HumanoidRootPart') then
+						local cf = CFrame.new(v)
+						local a = tween_s:Create(lp.Character.HumanoidRootPart,tweeninfo,{CFrame=cf})
+						a:Play()
+						-- a.Completed:Wait()
+						-- print('Teleporting Done!')
+					end
+				end
+				bypass_teleport(teleport_table.location1)								
+				bypass_teleport(teleport_table.location2)
+				wait(3)
+				local teleport_table = {
+					location1 = Vector3.new(), -- your desired position
+					location2 = Vector3.new(185.122131, 24.4171562, -605.119263, 1, 0, 0, 0, 1, 0, 0, 0, 1),  -- your desired position
+				}
+				
+				local tween_s = game:GetService('TweenService')
+				local tweeninfo = TweenInfo.new(1,Enum.EasingStyle.Linear)
+				
+				local lp = game.Players.LocalPlayer
+				
+				function bypass_teleport(v)
+					if lp.Character and 
+					lp.Character:FindFirstChild('HumanoidRootPart') then
+						local cf = CFrame.new(v)
+						local a = tween_s:Create(lp.Character.HumanoidRootPart,tweeninfo,{CFrame=cf})
+						a:Play()
+						-- a.Completed:Wait()
+						-- print('Teleporting Done!')
+					end
+				end
+				bypass_teleport(teleport_table.location1)								
+				bypass_teleport(teleport_table.location2)
+				wait(3)
+				local teleport_table = {
+					location1 = Vector3.new(), -- your desired position
+					location2 = Vector3.new(245.122131, 24.4171562, -605.119263, 1, 0, 0, 0, 1, 0, 0, 0, 1),  -- your desired position
+				}
+				
+				local tween_s = game:GetService('TweenService')
+				local tweeninfo = TweenInfo.new(1,Enum.EasingStyle.Linear)
+				
+				local lp = game.Players.LocalPlayer
+				
+				function bypass_teleport(v)
+					if lp.Character and 
+					lp.Character:FindFirstChild('HumanoidRootPart') then
+						local cf = CFrame.new(v)
+						local a = tween_s:Create(lp.Character.HumanoidRootPart,tweeninfo,{CFrame=cf})
+						a:Play()
+						-- a.Completed:Wait()
+						-- print('Teleporting Done!')
+					end
+				end
+				bypass_teleport(teleport_table.location1)								
+				bypass_teleport(teleport_table.location2)
+				wait(3)
+				local teleport_table = {
+					location1 = Vector3.new(), -- your desired position
+					location2 = Vector3.new(245.122131, 24.4171562, -565.119263, 1, 0, 0, 0, 1, 0, 0, 0, 1),  -- your desired position
+				}
+				
+				local tween_s = game:GetService('TweenService')
+				local tweeninfo = TweenInfo.new(1,Enum.EasingStyle.Linear)
+				
+				local lp = game.Players.LocalPlayer
+				
+				function bypass_teleport(v)
+					if lp.Character and 
+					lp.Character:FindFirstChild('HumanoidRootPart') then
+						local cf = CFrame.new(v)
+						local a = tween_s:Create(lp.Character.HumanoidRootPart,tweeninfo,{CFrame=cf})
+						a:Play()
+						-- a.Completed:Wait()
+						-- print('Teleporting Done!')
+					end
+				end
+				bypass_teleport(teleport_table.location1)				
+				bypass_teleport(teleport_table.location2)
+				wait(3)
+            end
+        else
+            isRunning = false
+        end
+    end
+})
+
+local isRunning = false
+
+MainTab:AddToggle({
+    Name = "Auto Free Gifts Rewards",
+    Default = false,
+    Callback = function(Value)
+        if Value then
+            isRunning = true
+            while isRunning do
+				local args = {
+					[1] = 1
+				}
+				
+				game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Redeem Free Gift"):InvokeServer(unpack(args))
+				wait(0.1)			
+				local args = {
+					[1] = 2
+				}
+				
+				game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Redeem Free Gift"):InvokeServer(unpack(args))
+				wait(0.1)
+				local args = {
+					[1] = 3
+				}
+				
+				game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Redeem Free Gift"):InvokeServer(unpack(args))
+				wait(0.1)
+				local args = {
+					[1] = 4
+				}
+				
+				game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Redeem Free Gift"):InvokeServer(unpack(args))
+				wait(0.1)
+				local args = {
+					[1] = 5
+				}
+				
+				game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Redeem Free Gift"):InvokeServer(unpack(args))
+				wait(0.1)
+				local args = {
+					[1] = 6
+				}
+				
+				game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Redeem Free Gift"):InvokeServer(unpack(args))
+				wait(0.1)
+				local args = {
+					[1] = 7
+				}
+				
+				game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Redeem Free Gift"):InvokeServer(unpack(args))
+				wait(0.1)
+				local args = {
+					[1] = 8
+				}
+				
+				game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Redeem Free Gift"):InvokeServer(unpack(args))
+				wait(0.1)
+				local args = {
+					[1] = 9
+				}
+				
+				game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Redeem Free Gift"):InvokeServer(unpack(args))
+				wait(0.1)
+				local args = {
+					[1] = 10
+				}
+				
+				game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Redeem Free Gift"):InvokeServer(unpack(args))
+				wait(0.1)
+				local args = {
+					[1] = 11
+				}
+				
+				game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Redeem Free Gift"):InvokeServer(unpack(args))
+				wait(0.1)
+				local args = {
+					[1] = 12
+				}
+				
+				game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Redeem Free Gift"):InvokeServer(unpack(args))	
+                wait(5)
+            end
+        else
+            isRunning = false
+        end
+    end
+})
+
+MainTab:AddToggle({
+    Name = "Auto SmallDailyDiamonds",
+    Default = false,
+    Callback = function(Value)
+        if Value then
+            isRunning = true
+            while isRunning do
+				local args = {
+					[1] = "SmallDailyDiamonds"
+				}
+				
+				game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("DailyRewards_Redeem"):InvokeServer(unpack(args))
+                wait(5)
+            end
+        else
+            isRunning = false
+        end
+    end
+})
+
+MainTab:AddToggle({
+    Name = "Auto DailyPotions",
+    Default = false,
+    Callback = function(Value)
+        if Value then
+            isRunning = true
+            while isRunning do
+				local args = {
+					[1] = "DailyPotions"
+				}
+				
+				game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("DailyRewards_Redeem"):InvokeServer(unpack(args))				
+                wait(5)
+            end
+        else
+            isRunning = false
+        end
+    end
+})
+
+MainTab:AddToggle({
+    Name = "Auto DailyEnchants",
+    Default = false,
+    Callback = function(Value)
+        if Value then
+            isRunning = true
+            while isRunning do
+				local args = {
+					[1] = "DailyEnchants"
+				}
+				
+				game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("DailyRewards_Redeem"):InvokeServer(unpack(args))		
+                wait(5)
+            end
+        else
+            isRunning = false
+        end
+    end
+})
+
+MainTab:AddToggle({
+    Name = "Auto DailyItems",
+    Default = false,
+    Callback = function(Value)
+        if Value then
+            isRunning = true
+            while isRunning do
+				local args = {
+					[1] = "DailyItems"
+				}
+				
+				game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("DailyRewards_Redeem"):InvokeServer(unpack(args))									
+                wait(5)
+            end
+        else
+            isRunning = false
+        end
+    end
+})
+
+MainTab:AddToggle({
+    Name = "Auto MediumDailyDiamonds",
+    Default = false,
+    Callback = function(Value)
+        if Value then
+            isRunning = true
+            while isRunning do
+				local args = {
+					[1] = "MediumDailyDiamonds"
+				}
+				
+				game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("DailyRewards_Redeem"):InvokeServer(unpack(args))										
+                wait(5)
+            end
+        else
+            isRunning = false
+        end
+    end
+})
+
+
+local ObbyTab = Window:MakeTab({
+	Name = "Obby",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = ObbyTab:AddSection({
+	Name = "Classic Obby"
+})  
+
+ObbyTab:AddButton({
+	Name = "Enter",
+	Callback = function()
+		wait(0.1)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(914.923523, 23.4310474, -211.970032, 0, 0, -1, 1, 0, 0, 0, -1, 0)	
+  	end,   
+})
+
+ObbyTab:AddButton({
+	Name = "Finish",
+	Callback = function()
+		wait(0.1)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(184.661621, 145.304489, -1737.94238, 0, 0, 1, 0, 1, -0, -1, 0, 0)	
+  	end,   
+})
+
+local Section = ObbyTab:AddSection({
+	Name = "Mine Field"
+})
+
+ObbyTab:AddButton({
+	Name = "Enter",
+	Callback = function()
+		wait(0.1)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(210.956146, 21.4331856, 329.82724, 0.0223363042, 0, 0.999750495, 0, 1, 0, -0.999750495, 0, 0.0223363042)	
+  	end,   
+})
+
+ObbyTab:AddToggle({
+    Name = "Speed 100",
+    Default = false,
+    Callback = function(Value)
+        if Value then
+            isRunning = true
+            while isRunning do
+				game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100	
+                wait(0.1)
+            end
+        else
+            isRunning = false
+        end
+    end
+})
+
+local Section = ObbyTab:AddSection({
+	Name = "Jungle Obby"
+})  
+
+ObbyTab:AddButton({
+	Name = "Enter",
+	Callback = function()
+		wait(0.1)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(528.97821, 24.4103432, 423.426575, 0, 1, -0, -1, 0, 0, 0, 0, 1)	
+  	end,   
+})
+
+ObbyTab:AddButton({
+	Name = "Finish",
+	Callback = function()
+		wait(0.1)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3304.70874, 187.770706, -498.320892, -0.573439598, 0, -0.819247961, 0, 1, 0, 0.819247961, 0, -0.573439598)	
+  	end,   
+})
+
+local Section = ObbyTab:AddSection({
+	Name = "Atlantis Obby"
+})  
+
+ObbyTab:AddButton({
+	Name = "Enter",
+	Callback = function()
+		wait(0.1)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(534.385742, -22.6355209, 702.356934, 0, 0, -1, 0, 1, 0, 1, 0, 0)	
+  	end,   
+})
+
+ObbyTab:AddButton({
+	Name = "Finish",
+	Callback = function()
+		wait(1)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings["1"].Collision.CFrame
+		wait(0.35)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings["2"].Collision.CFrame
+		wait(0.35)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings["3"].Collision.CFrame
+		wait(0.35)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings["4"].Collision.CFrame
+		wait(0.35)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings["5"].Collision.CFrame
+		wait(0.35)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings["6"].Collision.CFrame
+		wait(0.35)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings["7"].Collision.CFrame
+		wait(0.35)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings["8"].Collision.CFrame
+		wait(0.35)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings["9"].Collision.CFrame
+		wait(0.35)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings["10"].Collision.CFrame
+		wait(0.35)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings["11"].Collision.CFrame
+		wait(0.35)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings["12"].Collision.CFrame
+		wait(0.35)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings["13"].Collision.CFrame
+		wait(0.35)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings["14"].Collision.CFrame
+		wait(0.35)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings["15"].Collision.CFrame
+		wait(0.35)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings["16"].Collision.CFrame
+		wait(0.35)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings["17"].Collision.CFrame
+		wait(0.35)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings["18"].Collision.CFrame
+		wait(0.35)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings["19"].Collision.CFrame
+		wait(0.35)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings["20"].Collision.CFrame
+		wait(0.35)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings["21"].Collision.CFrame
+		wait(0.35)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings["22"].Collision.CFrame
+		wait(0.35)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings["23"].Collision.CFrame
+		wait(0.35)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings["24"].Collision.CFrame
+		wait(0.35)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings["25"].Collision.CFrame
+		wait(0.35)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings["26"].Collision.CFrame
+		wait(0.35)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings["27"].Collision.CFrame
+		wait(0.35)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings["28"].Collision.CFrame
+		wait(0.35)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings["29"].Collision.CFrame
+		wait(0.35)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings["30"].Collision.CFrame
+		wait(0.35)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.workspace.__THINGS.__INSTANCE_CONTAINER.Active.Atlantis.Rings["31"].Collision.CFrame
+  	end,   
+})
+
+local Section = ObbyTab:AddSection({
+	Name = "Fishing"
+})
+
+ObbyTab:AddButton({
+	Name = "Enter",
+	Callback = function()
+		wait(0.1)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(795.196045, 27.1575642, 1136.44312, -0.0500205755, 0, 0.998748183, 0, 1, 0, -0.998748183, 0, -0.0500205755)	
+  	end,   
+})
+
+ObbyTab:AddButton({
+	Name = "Auto fish",
+	Callback = function()
+		wait(0.1)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/99/main/Sim"))()
+	end,   
+})
+
+
+local Section = ObbyTab:AddSection({
+	Name = "Digsite"
+})  
+
+ObbyTab:AddButton({
+	Name = "Enter",
+	Callback = function()
+		wait(0.1)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(291.380737, 24.371582, 1050.21497, 1, 0, 0, 0, 1, 0, 0, 0, 1)	
+  	end,   
+})
+
+local Section = ObbyTab:AddSection({
+	Name = "Pyramid Obby"
+})  
+
+ObbyTab:AddButton({
+	Name = "Enter",
+	Callback = function()
+		wait(0.1)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(297.138916, 24.0009537, 1195.62061, 1, 0, 0, 0, 1, 0, 0, 0, 1)	
+  	end,   
+})
+
+ObbyTab:AddButton({
+	Name = "Finish",
+	Callback = function()
+		wait(0.1)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2501.14453, 74.5063248, -2856.79126, -0.72219646, 0, 0.691688001, 0, 1, 0, -0.691688001, 0, -0.72219646)	
+  	end,   
+})
+
+local Section = ObbyTab:AddSection({
+	Name = "Ice Obby"
+})  
+
+ObbyTab:AddButton({
+	Name = "Enter",
+	Callback = function()
+		wait(0.1)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(968.163208, 24.2914619, 1556.97998, 0, 0, 1, 0, 1, -0, -1, 0, 0)	
+  	end,   
+})
+
+ObbyTab:AddButton({
+	Name = "Finish",
+	Callback = function()
+		wait(0.1)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(4507.86621, 11.0770788, -505.510773, -0.182919979, 0, -0.983127832, 0, 1, 0, 0.983127832, 0, -0.182919979)	
+  	end,   
+})
+
+local Section = ObbyTab:AddSection({
+	Name = "Sled Race"
+})  
+
+ObbyTab:AddButton({
+	Name = "Enter",
+	Callback = function()
+		wait(0.1)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(374.711273, 72.6971817, 1481.58496, 0.982228756, 0, 0.187687814, 0, 1, 0, -0.187687814, 0, 0.982228756)	
+  	end,   
+})
+
+local Section = ObbyTab:AddSection({
+	Name = "Chest Rush"
+})
+
+ObbyTab:AddButton({
+	Name = "Enter",
+	Callback = function()
+		wait(0.1)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1257.33521, 24.3349743, 1799.71338, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+	end,   
+})
+
+ObbyTab:AddToggle({
+    Name = "Speed 100",
+    Default = false,
+    Callback = function(Value)
+        if Value then
+            isRunning = true
+            while isRunning do
+				game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100	
+                wait(0.1)
+            end
+        else
+            isRunning = false
+        end
+    end
+})
+
+local Section = ObbyTab:AddSection({
+	Name = "FlowerGarden"
+})
+
+ObbyTab:AddButton({
+	Name = "Enter",
+	Callback = function()
+		wait(0.1)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(181.254974, 30.3286343, 1987.63904, 0.499959469, -0, -0.866048813, 0, 1, -0, 0.866048813, 0, 0.499959469)
+	end,   
+})
+
+ObbyTab:AddToggle({
+    Name = "Auto Collect Plants",
+    Default = false,
+    Callback = function(Value)
+        if Value then
+            isRunning = true
+            while isRunning do
+				local args = {
+					[1] = "FlowerGarden",
+					[2] = "ClaimPlant",
+					[3] = 1
+				}
+				
+				game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Instancing_FireCustomFromClient"):FireServer(unpack(args))		
+				wait(0.5)
+				local args = {
+					[1] = "FlowerGarden",
+					[2] = "ClaimPlant",
+					[3] = 2
+				}
+				
+				game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Instancing_FireCustomFromClient"):FireServer(unpack(args))	
+				wait(0.5)
+				local args = {
+					[1] = "FlowerGarden",
+					[2] = "ClaimPlant",
+					[3] = 3
+				}
+				
+				game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Instancing_FireCustomFromClient"):FireServer(unpack(args))
+				wait(0.5)
+				local args = {
+					[1] = "FlowerGarden",
+					[2] = "ClaimPlant",
+					[3] = 4
+				}
+				
+				game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Instancing_FireCustomFromClient"):FireServer(unpack(args))
+				wait(0.5)
+				local args = {
+					[1] = "FlowerGarden",
+					[2] = "ClaimPlant",
+					[3] = 5
+				}
+				
+				game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Instancing_FireCustomFromClient"):FireServer(unpack(args))
+				wait(0.5)
+				local args = {
+					[1] = "FlowerGarden",
+					[2] = "ClaimPlant",
+					[3] = 6
+				}
+				
+				game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Instancing_FireCustomFromClient"):FireServer(unpack(args))
+				wait(0.5)
+				local args = {
+					[1] = "FlowerGarden",
+					[2] = "ClaimPlant",
+					[3] = 7
+				}
+				
+				game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Instancing_FireCustomFromClient"):FireServer(unpack(args))
+				wait(0.5)
+				local args = {
+					[1] = "FlowerGarden",
+					[2] = "ClaimPlant",
+					[3] = 8
+				}
+				
+				game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Instancing_FireCustomFromClient"):FireServer(unpack(args))
+				wait(0.5)
+				local args = {
+					[1] = "FlowerGarden",
+					[2] = "ClaimPlant",
+					[3] = 9
+				}
+				
+				game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Instancing_FireCustomFromClient"):FireServer(unpack(args))
+				wait(0.5)
+				local args = {
+					[1] = "FlowerGarden",
+					[2] = "ClaimPlant",
+					[3] = 10
+				}
+				
+				game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Instancing_FireCustomFromClient"):FireServer(unpack(args))			
+                wait(1)
+            end
+        else
+            isRunning = false
+        end
+    end
+})
+
+ObbyTab:AddToggle({
+    Name = "Auto Polivat",
+    Default = false,
+    Callback = function(Value)
+        if Value then
+            isRunning = true
+            while isRunning do
+				local args = {
+					[1] = "FlowerGarden",
+					[2] = "WaterSeed",
+					[3] = 1
+				}
+				
+				game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Instancing_InvokeCustomFromClient"):InvokeServer(unpack(args))
+				wait(0.5)
+				local args = {
+					[1] = "FlowerGarden",
+					[2] = "WaterSeed",
+					[3] = 2
+				}
+				
+				game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Instancing_InvokeCustomFromClient"):InvokeServer(unpack(args))
+				wait(0.5)
+				local args = {
+					[1] = "FlowerGarden",
+					[2] = "WaterSeed",
+					[3] = 3
+				}
+				
+				game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Instancing_InvokeCustomFromClient"):InvokeServer(unpack(args))
+				wait(0.5)
+				local args = {
+					[1] = "FlowerGarden",
+					[2] = "WaterSeed",
+					[3] = 4
+				}
+				
+				game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Instancing_InvokeCustomFromClient"):InvokeServer(unpack(args))
+				wait(0.5)
+				local args = {
+					[1] = "FlowerGarden",
+					[2] = "WaterSeed",
+					[3] = 5
+				}
+				
+				game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Instancing_InvokeCustomFromClient"):InvokeServer(unpack(args))
+				wait(0.5)
+				local args = {
+					[1] = "FlowerGarden",
+					[2] = "WaterSeed",
+					[3] = 6
+				}
+				
+				game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Instancing_InvokeCustomFromClient"):InvokeServer(unpack(args))
+				wait(0.5)
+				local args = {
+					[1] = "FlowerGarden",
+					[2] = "WaterSeed",
+					[3] = 7
+				}
+				
+				game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Instancing_InvokeCustomFromClient"):InvokeServer(unpack(args))
+				wait(0.5)
+				local args = {
+					[1] = "FlowerGarden",
+					[2] = "WaterSeed",
+					[3] = 8
+				}
+				
+				game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Instancing_InvokeCustomFromClient"):InvokeServer(unpack(args))
+				wait(0.5)
+				local args = {
+					[1] = "FlowerGarden",
+					[2] = "WaterSeed",
+					[3] = 9
+				}
+				
+				game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Instancing_InvokeCustomFromClient"):InvokeServer(unpack(args))
+				wait(0.5)
+				local args = {
+					[1] = "FlowerGarden",
+					[2] = "WaterSeed",
+					[3] = 10
+				}
+				
+				game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Instancing_InvokeCustomFromClient"):InvokeServer(unpack(args))
+                wait(1)
+            end
+        else
+            isRunning = false
+        end
+    end
+})
+
+local Section = ObbyTab:AddSection({
+	Name = "Cart Ride Into Preston"
+})  
+
+ObbyTab:AddButton({
+	Name = "Enter",
+	Callback = function()
+		wait(0.1)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(947.350769, 16.3126278, 2568.38672, 0.704517305, -9.4511341e-09, -0.709686816, -6.85737744e-10, 1, -1.39980738e-08, 0.709686816, 1.03485442e-08, 0.704517305)	
+  	end,   
+})
+
+ObbyTab:AddButton({
+	Name = "Finish",
+	Callback = function()
+		wait(0.1)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1040.32153, 56.9569359, -4656.04199, -0.8786515, -8.53767368e-09, -0.477463633, 2.79078627e-09, 1, -2.30170443e-08, 0.477463633, -2.15564597e-08, -0.8786515)	
+  	end,   
+})
+
+local FRTab = Window:MakeTab({
+	Name = "Fast Buyer",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = FRTab:AddSection({
+	Name = "Fast Buyer"
+})
+
+FRTab:AddButton({
+	Name = "Random Potions",
+	Callback = function()
+		wait(0.2)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(907.842285, 15.5527353, -9.45902061, -0.999849796, 0, -0.0173500739, 0, 1, 0, 0.0173500739, 0, -0.999849796)
+  	end,   
+})
+
+FRTab:AddButton({
+	Name = "Random Enchants",
+	Callback = function()
+		wait(0.2)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(368.082428, 15.5527353, 89.625267, -0.0173809528, 0, 0.999849021, 0, 1, 0, -0.999849021, 0, -0.0173809528)
+  	end,   
+})
+
+FRTab:AddButton({
+	Name = "Random Fruits",
+	Callback = function()
+		wait(0.2)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(692.657532, 15.5527353, 325.434448, -0.0173809528, 0, 0.999849021, 0, 1, 0, -0.999849021, 0, -0.0173809528)
+  	end,   
+})
+
+FRTab:AddButton({
+	Name = "Random Fruits II",
+	Callback = function()
+		wait(0.2)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1031.28357, 15.5683575, 1034.90051, -0.999849796, 0, -0.0173500739, 0, 1, 0, 0.0173500739, 0, -0.999849796)
+  	end,   
+})
+
+FRTab:AddButton({
+	Name = "Random Potions II",
+	Callback = function()
+		wait(0.2)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(987.409729, 15.5683575, 1318.76245, -0.0173809528, 0, 0.999849021, 0, 1, 0, -0.999849021, 0, -0.0173809528)
+  	end,   
+})
+
+FRTab:AddButton({
+	Name = "Random Enchants II",
+	Callback = function()
+		wait(0.2)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(795.329468, 15.5683575, 1795.85962, -0.0173809528, 0, 0.999849021, 0, 1, 0, -0.999849021, 0, -0.0173809528)
+  	end,   
+})
+
+FRTab:AddButton({
+	Name = "Rare Potion",
+	Callback = function()
+		wait(0.2)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1481.37402, 15.2316093, 1925.07324, -0.999849796, 0, -0.0173500739, 0, 1, 0, 0.0173500739, 0, -0.999849796)
+  	end,   
+})
+
+FRTab:AddButton({
+	Name = "Garden Merchant",
+	Callback = function()
+		wait(0.2)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(258.795471, 13.6074181, 2057.83374, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+  	end,   
+})
+
+FRTab:AddButton({
+	Name = "Advenced Merchant", 
+	Callback = function()
+		wait(0.2)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(818.226379, 13.5698595, 1555.54028, -0.0173809528, 0, 0.999849021, 0, 1, 0, -0.999849021, 0, -0.0173809528)
+  	end,   
+})
+
+FRTab:AddButton({
+	Name = "Merchant", 
+	Callback = function()
+		wait(0.2)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(370.71991, 13.5606432, 566.13446, -0.0173809528, 0, 0.999849021, 0, 1, 0, -0.999849021, 0, -0.0173809528)
+  	end,   
+})
+
+
+
+local GuiTab = Window:MakeTab({
+	Name = "Gui",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = GuiTab:AddSection({
+	Name = "Gui"
+})  
+
+GuiTab:AddButton({
+	Name = "Pets Equipped",
+	Callback = function()
+		wait(0.1)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(692.51825, 15.5616398, -268.601044, 0.0173808932, -0, -0.999849021, 0, 1, -0, 0.999849021, 0, 0.0173808932)	
+  	end,   
+})
+
+GuiTab:AddButton({
+	Name = "Egg Mashine",
+	Callback = function()
+		wait(0.1)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(536.611389, 15.5618401, 91.1107635, -0.0173809528, 0, 0.999849021, 0, 1, 0, -0.999849021, 0, -0.0173809528)	
+  	end,   
+})
+
+GuiTab:AddButton({
+	Name = "Golden Pets",
+	Callback = function()
+		wait(0.1)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(155.055801, 15.5503864, 11.7445469, 0.999849498, 0, 0.0173500739, 0, 1, 0, -0.0173500739, 0, 0.999849498)	
+  	end,   
+})
+
+GuiTab:AddButton({
+	Name = "Upgrade Potion",
+	Callback = function()
+		wait(0.1)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(531.810059, 15.5644913, 325.669403, -0.0173809528, 0, 0.999849021, 0, 1, 0, -0.999849021, 0, -0.0173809528)	
+  	end,   
+})
+
+GuiTab:AddButton({
+	Name = "Upgrade Enchant",
+	Callback = function()
+		wait(0.1)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(914.696777, 15.561552, 481.951569, -0.999849796, 0, -0.0173500739, 0, 1, 0, 0.0173500739, 0, -0.999849796)	
+  	end,   
+})
+
+GuiTab:AddButton({
+	Name = "Merchant",
+	Callback = function()
+		wait(0.1)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(370.71991, 15.5606432, 566.13446, -0.0173809528, 0, 0.999849021, 0, 1, 0, -0.999849021, 0, -0.0173809528)	
+  	end,   
+})
+
+GuiTab:AddButton({
+	Name = "Daycare",
+	Callback = function()
+		wait(0.1)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(130.25502, 15.5606432, 509.209473, 0.999849498, 0, 0.0173500739, 0, 1, 0, -0.0173500739, 0, 0.999849498)	
+  	end,   
+})
+
+GuiTab:AddButton({
+	Name = "Fuse",
+	Callback = function()
+		wait(0.1)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(668.949707, 15.2590151, 1085.71167, -0.0173809528, 0, 0.999849021, 0, 1, 0, -0.999849021, 0, -0.0173809528)	
+  	end,   
+})
+
+GuiTab:AddButton({
+	Name = "Advanced Merchant",
+	Callback = function()
+		wait(0.1)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(818.226379, 15.5698595, 1555.54028, -0.0173809528, 0, 0.999849021, 0, 1, 0, -0.999849021, 0, -0.0173809528)	
+  	end,   
+})
+
+GuiTab:AddButton({
+	Name = "Advanced Merchant",
+	Callback = function()
+		wait(0.1)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(529.962769, 17.6274376, 2192.81616, 0.224959731, 0, 0.974368095, 0, 1, 0, -0.974368095, 0, 0.224959731)	
+  	end,   
+})
+
+
+local TpTab = Window:MakeTab({
+	Name = "Eggs",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = TpTab:AddSection({
+	Name = "Nichego"
+})  
+
+local DiamondTab = Window:MakeTab({
+	Name = "Diamonds Farm",
+	Icon = "rbxassetid://7628736558",
+	PremiumOnly = false
+})
+
+local Section = DiamondTab:AddSection({
+	Name = "Diamonds Farm"
+})
+
+DiamondTab:AddButton({
+	Name = "TP location",
+	Callback = function()
+		wait(0.1)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(214.122131, 24.4171562, -587.119263, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+  	end, 
+})
+
+local isRunning = false
+
+DiamondTab:AddToggle({
+    Name = "Spawn Diamond Flag",
+    Default = false,
+    Callback = function(Value)
+        if Value then
+            isRunning = true
+            while isRunning do
+				local args = {
+					[1] = "Diamonds Flag",
+					[2] = "d979bb40d87c4362a08837e11dce3cad"
+				}
+				
+				game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Flags: Consume"):InvokeServer(unpack(args))
+                wait(1)
+            end
+        else
+            isRunning = false
+        end
+    end
+})
+
+local Section = DiamondTab:AddSection({
+	Name = "Super Puper Autofarm (NEED AUTO FARM GAYPASS AND TAP, OR HACKS😈)"
+})
+
+local Section = DiamondTab:AddSection({
+	Name = "Btw anti you have anti lag in misc"
+})
+
+local MiscTab = Window:MakeTab({
+	Name = "Misc",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = MiscTab:AddSection({
+	Name = "Misc"
+})
+
+MiscTab:AddButton({
+	Name = "Use Fruits",
+	Callback = function()
+		wait(0.2)
+		local args = {
+			[1] = "89c7f79c3a274c36b7d0aa97e5aa670c",
+			[2] = 1
+		}
+		
+		game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Fruits: Consume"):FireServer(unpack(args))
+		wait(0.1)
+		local args = {
+			[1] = "a7cd1087587a438696fa6eb5d24b98dd",
+			[2] = 1
+		}
+		
+		game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Fruits: Consume"):FireServer(unpack(args))
+		wait(0.1)
+		local args = {
+			[1] = "ae76f9456f9345178f937eaab90aa788",
+			[2] = 1
+		}
+		
+		game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Fruits: Consume"):FireServer(unpack(args))
+		wait(0.1)
+		local args = {
+			[1] = "6c77fcc57e804a6e894773488587b085",
+			[2] = 1
+		}
+		
+		game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Fruits: Consume"):FireServer(unpack(args))
+		wait(0.1)
+		local args = {
+			[1] = "3dc44ab32c6542e1a8b51046ac7e331f",
+			[2] = 1
+		}
+		
+		game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Fruits: Consume"):FireServer(unpack(args))
+  	end,   
+})
+
+MiscTab:AddButton({
+	Name = "Use Toys",
+	Callback = function()
+		wait(0.2)
+		game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("SqueakyToy_Consume"):InvokeServer()	
+		wait(0.1)
+		game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("ToyBall_Consume"):InvokeServer()
+		wait(0.1)
+		game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("ToyBone_Consume"):InvokeServer()
+  	end,   
+})
+
+MiscTab:AddButton({
+	Name = "Copy cframe",
+	Callback = function()
+		wait(0.2)
+		local player = game.Players.LocalPlayer
+		local character = player.Character
+		
+		if character then
+			local humanoidRootPart = character:FindFirstChild("HumanoidRootPart")
+		
+			if humanoidRootPart then
+				local characterCFrame = humanoidRootPart.CFrame
+				print("Character CFrame:", characterCFrame)
+				setclipboard(tostring(characterCFrame))
+				print("Character CFrame copied to clipboard.")
+		
+				-- Cutest Notifier
+				local notification = Instance.new("ScreenGui")
+				notification.Name = "CuteNotifier"
+		
+				local frame = Instance.new("Frame")
+				frame.Size = UDim2.new(0, 200, 0, 100)
+				frame.Position = UDim2.new(0.5, -100, 1, -120)
+				frame.BackgroundColor3 = Color3.new(1, 0.8, 0.8)
+				frame.BackgroundTransparency = 0.5
+				frame.BorderSizePixel = 2
+				frame.BorderColor3 = Color3.new(1, 0, 0)
+				frame.ClipsDescendants = true
+				frame.Parent = notification
+		
+				local heartImage = Instance.new("ImageLabel")
+				heartImage.Size = UDim2.new(0, 50, 0, 50)
+				heartImage.Position = UDim2.new(0.5, -25, 0, 10)
+				heartImage.Image = "rbxassetid://14793537772"
+				heartImage.Parent = frame
+		
+				local label = Instance.new("TextLabel")
+				label.Size = UDim2.new(1, 0, 0.5, 0)
+				label.Position = UDim2.new(0, 0, 0.5, 0)
+				label.Text = "Cuteness overload!\nCharacter CFrame copied to clipboard!"
+				label.TextColor3 = Color3.new(0, 0, 0)
+				label.BackgroundTransparency = 1
+				label.Parent = frame
+		
+				notification.Parent = player:WaitForChild("PlayerGui")
+		
+				wait(5) -- Display the notification for 2 seconds
+		
+				notification:Destroy()
+			else
+				warn("HumanoidRootPart not found.")
+			end
+		else
+			warn("Character not found.")
+		end
+  	end,   
+})
+
+MiscTab:AddButton({
+	Name = "Hide other",
+	Callback = function()
+		wait(0.2)
+		_G.HideAll = true
+		while _G.HideAll and  task.wait() do
+		
+		for i,v in pairs(game.Players:GetPlayers()) do
+		if v.Name ~= game.Players.LocalPlayer.Name and v.Character then
+		v.Character:Destroy()
+		end
+		end
+		end
+  	end,   
+})
+
+MiscTab:AddButton({
+	Name = "dex mobile",
+	Callback = function()
+		wait(0.2)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
+  	end,   
+})
+
+MiscTab:AddButton({
+	Name = "Antilag",
+	Callback = function()
+		wait(0.2)
+		game:GetService("Workspace")["__THINGS"].Ornaments:Destroy()
+		wait(1)
+		game:GetService("Workspace")["__THINGS"].Presents:Destroy()
+		wait(1)
+		game:GetService("Workspace")["__THINGS"].ElfModel:Destroy()
+		wait(1)
+		game:GetService("Workspace")["Starcode_Num"]:Destroy()
+		wait(1)
+		game:GetService("Workspace").ThreeDTextObject:Destroy()
+		wait(1)
+		game:GetService("Workspace")["__THINGS"].AnimatedBreakables:Destroy()
+		wait(1)
+		game:GetService("Workspace")["__THINGS"].Sounds:Destroy()
+		wait(1)
+		game:GetService("Workspace")["__THINGS"]["Ski Chairs"]:Destroy()
+		wait(1)
+		game:GetService("Workspace")["__THINGS"].ShinyRelics:Destroy()
+		wait(0.1)
+		local workspace = game:GetService("Workspace")
+local eggsFolder = workspace:WaitForChild("__THINGS").Eggs.Main
+
+local startEggNumber = 1
+local endEggNumber = 105
+
+for i = startEggNumber, endEggNumber do
+    if i ~= 76 then
+        local eggName = tostring(i) .. " - Egg Capsule"
+        local egg = eggsFolder:FindFirstChild(eggName)
+        
+        if egg then
+            egg:Destroy()
+        end
+    end
+end
+wait(1)
+  	end,   
+})
+
+MiscTab:AddButton({
+	Name = "antilag+ (use when autofarm)",
+	Callback = function()
+		wait(0.2)
+		local workspace = game:GetService("Workspace")
+
+		local mapFolder = workspace.Map
+		if mapFolder then
+			for _, folder in pairs(mapFolder:GetChildren()) do
+				if folder:IsA("Folder") then
+					local folderName = folder.Name
+					local spawnNumber = tonumber(folderName:match("(%d+) |"))
+		
+					-- Check if the folder should be deleted
+					if spawnNumber ~= 1 and spawnNumber ~= 63 then
+						folder:Destroy()
+					end
+				end
+			end
+		else
+			warn("Map folder not found.")
+		end		
+  	end,   
+})
+
+MiscTab:AddButton({
+	Name = "gerisxx (buy merchant)",
+	Callback = function()
+		wait(0.2)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/gerisxx/ps99-Script/main/syrexhub"))()
+  	end,   
+})
+
+MiscTab:AddButton({
+	Name = "Lolking",
+	Callback = function()
+		wait(0.1)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Sim99/main/Pet"))()
+  	end,   
+})
+
+MiscTab:AddButton({
+	Name = "infiniteyield",
+	Callback = function()
+		wait(0.1)
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()	
+  	end,   
+})
