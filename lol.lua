@@ -1275,14 +1275,6 @@ MiscTab:AddButton({
 })
 
 MiscTab:AddButton({
-	Name = "Lolking",
-	Callback = function()
-		wait(0.1)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Sim99/main/Pet"))()
-  	end,   
-})
-
-MiscTab:AddButton({
 	Name = "infiniteyield",
 	Callback = function()
 		wait(0.1)
